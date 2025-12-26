@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Luís Tieres | Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1 data-i18n="name">Luis Tieres</h1>
+        <p data-i18n="role">Engenharia de Sistemas | Desenvolvedor</p>
+
+        <div class="lang-switch">
+            <button class="flag flag-br" onclick="setLanguage('pt')" aria-label="Português"></button>
+            <button class="flag flag-us" onclick="setLanguage('en')" aria-label="English"></button>
+        </div>
+
+
+    </header>
+
+    <nav>
+        <a href="#sobre" data-i18n="menu_about">Sobre</a>
+        <a href="#grade_curricular" data-i18n="menu_education">Formação</a>
+        <a href="#experiencia" data-i18n="menu_experience">Experiência</a>
+        <a href="#projetos" data-i18n="menu_projects">Projetos</a>
+        <a href="#contato" data-i18n="menu_contact">Contato</a>
+    </nav>
+
+
+    <section id="sobre" class="sobre">
+        <img src="assets/img/profile.jpeg" alt="Foto de Luís Tieres" class="profile-pic">
+
+        <div class="sobre-texto">
+            <h2 data-i18n="about_title">Sobre mim</h2>
+            <p data-i18n="about_short">
+                Engenharia de Sistemas (UFMG) | Técnico em Eletrotécnica (CEFET-MG) | Desenvolvimento de sistemas, automação e pesquisa científica
+            </p>
+        </div>
+    </section>
+
+    <section id="resumo" class="resumo">
+        <h2 data-i18n="summary_title">Resumo Profissional</h2>
+
+        <p data-i18n="summary_p1">
+            Sou estudante de Engenharia de Sistemas na UFMG e técnico em Eletrotécnica formado pelo CEFET-MG,
+            instituição na qual concluí tanto minha formação técnica quanto o ensino médio. Durante esse período,
+            realizei um estágio em TI em usinas fotovoltaicas, experiência que contribuiu significativamente para
+            a construção da minha base profissional.
+        </p>
+
+        <p data-i18n="summary_p2">
+            Após ingressar na UFMG, ampliei minha formação acadêmica por meio da participação em dois projetos
+            de iniciação científica na área de desenvolvimento de software full stack, além de um estágio em
+            automação industrial, atuando com programação de PLCs, IHMs, sistemas supervisórios SCADA e
+            ambientes Linux. Essas experiências fortaleceram minhas habilidades técnicas, analíticas e de
+            resolução de problemas.
+        </p>
+
+        <p data-i18n="summary_p3">
+            Possuo experiência prática no desenvolvimento de sistemas de gestão, atuando em todas as etapas
+            do ciclo de desenvolvimento de software, incluindo modelagem e administração de bancos de dados
+            (MySQL e PostgreSQL), bem como desenvolvimento backend e frontend utilizando Python (com PyQt6
+            para aplicações desktop), C, C++, JavaScript e HTML/CSS. Tenho especial interesse em engenharia
+            de software, estruturas de dados e otimização de desempenho.
+        </p>
+
+        <p data-i18n="summary_p4">
+            Também participei de um programa de intercâmbio acadêmico na Universidade de Ciências Aplicadas
+            de Kajaani, na Finlândia, onde cursei disciplinas ministradas integralmente em inglês, com foco
+            em ciência da computação e desenvolvimento digital. Para essa experiência, dediquei-me
+            intensamente ao estudo do inglês e alcancei um alto nível de proficiência em um ano. Atualmente,
+            iniciei também o estudo do francês.
+        </p>
+
+        <p data-i18n="summary_p5">
+            Meu perfil é marcado por dedicação, resiliência e proatividade. Busco constantemente aprimorar
+            minhas habilidades técnicas e interpessoais, com o objetivo de construir uma carreira sólida
+            e impactante na área de tecnologia, contribuindo para projetos inovadores e de relevância global.
+        </p>
+    </section>
+
+    <section id="grade_curricular">
+        <h2 data-i18n="education">Formação</h2>
+        <ul>
+            <li data-i18n="Técnico"><strong>Técnico em Eletrotécnica</strong> – CEFET-MG (2018 a 2020)</li>
+            <li data-i18n="Engenharia"><strong>Engenharia de Sistemas</strong> – UFMG (2022 a 2027)</li>
+            <li data-i18n="Intercâmbio"><strong>Intercâmbio Ciência da Computação Finlândia</strong> – KAMK University (2025)</li>
+        </ul>
+    </section>
+
+    <section id="experiencia">
+        <h2 data-i18n="experiencia">Experiência</h2>
+        <ul>
+            <li data-i18n="Estágio"><strong>Estágio em TI</strong> – Usina Fotovoltaica -Solar Energia- (2020)</li>
+            <li data-i18n="Iniciação"><strong>Iniciação Científica</strong> – Desenvolvimento de Sistemas -Hospital das Clinicas UFMG- (2023 a 2025)</li>
+            <li data-i18n="Automação"><strong>Estágio em Automação</strong> – Usina Hidrelétrica -Snef Brasil- (2024 a 2025)</li>
+                    </ul>
+    </section>
+
+    <section id="projetos">
+        <h2 data-i18n="projetos">Projetos</h2>
+        <div class="projeto">
+            <h3 data-i18n="projeto_SISTEMA">Sistema Gestão de Leitos</h3>
+            <p data-i18n="projeto_SISTEMA_SOBRE">Desktop app em Python (PyQt6) com MySQL, PostgreSQL e API.</p>
+        </div>
+        <div class="projeto">
+            <h3 data-i18n="projeto_Robber">Robber Game</h3>
+            <p data-i18n="projeto_Robber_SOBRE">The Robber é um jogo emocionante e dinâmico onde você assume o papel de um ladrão, tentando roubar vegetais da horta de um fazendeiro sem ser pego. Foi desenvolvido usando C# e Unity</p>
+        </div>
+    </section>
+
+   <section id="idiomas" class="idiomas">
+    <h2 data-i18n="languages_title">Idiomas</h2>
+
+        <div class="idiomas-container">
+            <div class="idioma-card">
+                <h3 data-i18n="lang_en">Inglês</h3>
+                <span class="nivel">B2</span>
+            </div>
+
+            <div class="idioma-card">
+                <h3 data-i18n="lang_fi">Finlandês</h3>
+                <span class="nivel">A1</span>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contato">
+        <h2 data-i18n="contact_title">Contato</h2>
+        <p>Email: <a href="mailto:luistieres@gmail.com">luistieres@gmail.com</a></p>
+        <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/luis-filipe-tieres-da-silva-16026019b"
+            target="_blank"
+            rel="noopener noreferrer">
+            www.linkedin.com/in/luis-filipe-tieres-da-silva-16026019b
+        </a>
+        </p>
+
+        <p>
+        GitHub:
+        <a href="https://github.com/LuisTieres"
+            target="_blank"
+            rel="noopener noreferrer">
+            github.com/LuisTieres
+        </a>
+        </p>
+
+    </section>
+
+    <footer>
+        <p>© 2025 – Luís Tieres</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
