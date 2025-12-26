@@ -17,6 +17,8 @@ const translations = {
         menu_education: "Formação",
         menu_experience: "Experiência",
         menu_projects: "Projetos",
+        menu_languages:"Idiomas",
+        menu_Skills:"Habilidades",
         menu_contact: "Contato",
 
         about_title: "Sobre mim",
@@ -56,6 +58,7 @@ const translations = {
 
 
         languages_title: "Idiomas",
+        habilidades: "Habilidades",
         lang_en: "Inglês",
         lang_fi: "Finlandês",
 
@@ -70,6 +73,8 @@ const translations = {
         menu_education: "Education",
         menu_experience: "Experience",
         menu_projects: "Projects",
+        menu_languages:"Languages",
+        menu_Skills:"Skills",
         menu_contact: "Contact",
 
         about_title: "About me",
@@ -108,6 +113,7 @@ const translations = {
 
 
         languages_title: "Languages",
+        habilidades: "Skills",
         lang_en: "English",
         lang_fi: "Finnish",
 

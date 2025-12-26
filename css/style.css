@@ -151,3 +151,162 @@ footer {
 .flag-us {
     background-image: url("../assets/icons/us.png");
 }
+
+section {
+    margin: 60px auto;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #1f2933;
+    border-left: 6px solid #2563eb;
+    padding-left: 15px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 20px;
+}
+
+section ul li {
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+
+section ul li strong {
+    color: #2563eb;
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+section ul li:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+#projetos {
+    display: grid;
+    gap: 25px;
+}
+
+.projeto {
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: #ffffff;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(37, 99, 235, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projeto h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.projeto p {
+    font-size: 1rem;
+    opacity: 0.95;
+}
+
+.projeto:hover {
+    transform: scale(1.03);
+    box-shadow: 0 15px 40px rgba(37, 99, 235, 0.6);
+}
+
+@media (max-width: 768px) {
+    section h2 {
+        font-size: 1.7rem;
+    }
+
+    .projeto h3 {
+        font-size: 1.3rem;
+    }
+}
+.idiomas-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+.idiomas h2,
+.skills h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    border-left: 6px solid #2563eb;
+    padding-left: 15px;
+    color: #1f2933;
+}
+
+.idiomas-container {
+    display: grid;
+    gap: 20px;
+}
+
+.idioma-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.idioma-card:hover {
+    transform: translateY(-5px);
+}
+
+.idioma-card h3 {
+    font-size: 1.2rem;
+    color: #2563eb;
+}
+
+.nivel {
+    background: #2563eb;
+    color: #ffffff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill {
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    box-shadow: 0 6px 18px rgba(37, 99, 235, 0.4);
+    transition: transform 0.25s ease;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .idiomas-skills {
+        grid-template-columns: 1fr;
+    }
+}
