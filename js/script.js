@@ -17,7 +17,6 @@ const translations = {
         menu_education: "Formação",
         menu_experience: "Experiência",
         menu_projects: "Projetos",
-        menu_languages:"Idiomas",
         menu_Skills:"Habilidades",
         menu_contact: "Contato",
 
@@ -58,9 +57,23 @@ const translations = {
 
 
         languages_title: "Idiomas",
-        habilidades: "Habilidades",
+        habilidades: "Softwares",
+        languages_skills: "Habilidades",
+        hobbies: "Outras experiências e interesses",
+        Run: "Corrida",
+        runnn1: "Melhor brasileiro na maratona de Helsinque",
+        runnn2: "Terceiro lugar geral na Corrida Duque de Caxias",
+        runnn3: "Atleta revelação de 2019",
+        Events: "Eventos",
+        event1: "PyCon Finlandia 2025",
+        event3: "Encontro dos poliglotas",
+        book1:"Admirável Mundo Novo",
+        book2:"O Homem mais rico da Babilônia",
+        book3:"Memórias Póstumas de Brás Cubas",
+        book4:"Trilogia Cósmica",
         lang_en: "Inglês",
         lang_fi: "Finlandês",
+        Books: "Livros",
 
         contact_title: "Contato"
     },
@@ -73,9 +86,10 @@ const translations = {
         menu_education: "Education",
         menu_experience: "Experience",
         menu_projects: "Projects",
-        menu_languages:"Languages",
         menu_Skills:"Skills",
         menu_contact: "Contact",
+        hobbies: "Others",
+        
 
         about_title: "About me",
         about_short: "Systems Engineering (UFMG) | Electrical Technician (CEFET-MG) | Software development, automation and scientific research",
@@ -113,7 +127,21 @@ const translations = {
 
 
         languages_title: "Languages",
-        habilidades: "Skills",
+        habilidades: "Softwares",
+        languages_skills: "Skills",
+        hobbies: "Other Experience and Interests",
+        Run: "Running",
+        runnn1: "Best Brazilian in the Helsinki marathon",
+        runnn2: "Third overall in the Duque de Caxias Race",
+        runnn3: "Breakthrough athlete 2019",
+        Events: "Events",
+        event1: "PyCon Finland 2025",
+        event3: "Polyglot Meeting",
+        Books: "Books",
+        book1:"Brave New World",
+        book2:"The richest man in Babylon",
+        book3:"Posthumous Memoirs of Brás Cubas",
+        book4:"Space Trilogy",
         lang_en: "English",
         lang_fi: "Finnish",
 

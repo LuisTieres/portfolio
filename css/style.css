@@ -310,3 +310,63 @@ section ul li:hover {
         grid-template-columns: 1fr;
     }
 }
+
+.idiomas-skills {
+    margin: 80px auto;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+.idiomas-skills {
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+
+.section-title {
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.idiomas-skills-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+@media (max-width: 768px) {
+    .idiomas-skills-content {
+        grid-template-columns: 1fr;
+    }
+}
+/* Galeria geral */
+.hobby-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+}
+
+/* Cada item */
+.hobby-item {
+    text-align: center;
+}
+
+/* IMAGENS */
+.hobby-item img {
+    width: 100%;
+    max-width: 440px;   /* CONTROLA O TAMANHO */
+    height: 260px;     /* ALTURA FIXA */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Descrição */
+.hobby-item p {
+    font-size: 0.85rem;
+    margin-top: 6px;
+    color: #555;
+}
