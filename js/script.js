@@ -9,6 +9,77 @@ document.querySelectorAll('nav a').forEach(link => {
     });
 });
 const translations = {
+
+    en: {
+        name: "Luis Tieres",
+        role: "Systems Engineering | Developer",
+
+        menu_about: "About",
+        menu_education: "Education",
+        menu_experience: "Experience",
+        menu_projects: "Projects",
+        menu_Skills:"Skills",
+        menu_contact: "Contact",
+        hobbies: "Others",
+        
+
+        about_title: "About me",
+        about_short: "Systems Engineering (UFMG) | Electrical Technician (CEFET-MG) | Software development, automation and scientific research",
+
+        summary_title: "Professional Summary",
+        summary_p1: "I am a Systems Engineering student at UFMG and a certified Electrical Technician from CEFET-MG, where I completed both my technical education and high school. During this period, I completed an IT internship at photovoltaic power plants, which played an important role in building my professional foundation.",
+
+        summary_p2: "After joining UFMG, I expanded my academic background by participating in two scientific research projects focused on full stack software development, as well as completing an internship in industrial automation, working with PLC programming, HMIs, SCADA supervisory systems and Linux environments. These experiences strengthened my technical, analytical and problem-solving skills.",
+
+        summary_p3: "I have hands-on experience in management system development, working across all stages of the software development lifecycle, including database modeling and administration (MySQL and PostgreSQL), as well as backend and frontend development using Python (including PyQt6 for desktop applications), C, C++, TypeScript, JavaScript and HTML/CSS. I have a strong interest in software engineering, data structures and performance optimization.",
+
+        summary_p4: "I also participated in an academic exchange program at Kajaani University of Applied Sciences in Finland, where I attended courses fully taught in English, focused on computer science and digital development. To prepare for this experience, I dedicated myself intensively to learning English and achieved a high level of proficiency within one year. I have recently also started studying French.",
+
+        summary_p5: "My profile is marked by dedication, resilience and proactivity. I constantly seek to improve my technical and interpersonal skills, aiming to build a solid and impactful career in technology and contribute to innovative projects with global relevance.",
+        
+        education: "Education",
+
+        "Técnico": "Electrical Technician – CEFET-MG (2018 to 2020)",
+        "Engenharia": "Systems Engineering – UFMG (2022 to 2027)",
+        "Intercâmbio": "Computer Science Exchange Program – Finland – KAMK University (2025)",
+
+        experiencia: "Experience",
+
+        "Estágio": "IT Internship – Solar Power Plant – Solar Energia (2020)",
+        "Iniciação": "Scientific Research – Software Development – Hospital das Clínicas UFMG (2023 to 2025)",
+        "Automação": "Automation Internship – Hydroelectric Power Plant – Snef Brasil (2024 to 2025)",
+
+        projetos: "Projects",
+
+        projeto_SISTEMA: "Hospital Bed Management System",
+        projeto_SISTEMA_SOBRE: "Desktop application developed in Python (PyQt6) using MySQL, PostgreSQL and API integration.",
+
+        projeto_Robber: "Robber Game",
+        projeto_Robber_SOBRE: "The Robber is a dynamic game where the player takes on the role of a thief trying to steal vegetables from a farmer’s garden without being caught. Developed in C# using Unity.",
+
+
+        languages_title: "Languages",
+        habilidades: "Softwares",
+        languages_skills: "Skills",
+        hobbies: "Other Experience and Interests",
+        Run: "Running",
+        runnn1: "Best Brazilian in the Helsinki marathon",
+        runnn2: "Third overall in the Duque de Caxias Race",
+        runnn3: "Breakthrough athlete 2019",
+        Events: "Events",
+        event1: "PyCon Finland 2025",
+        event3: "Polyglot Meeting",
+        Books: "Books",
+        book1:"Brave New World",
+        book2:"The richest man in Babylon",
+        book3:"Posthumous Memoirs of Brás Cubas",
+        book4:"Space Trilogy",
+        lang_en: "English",
+        lang_fi: "Finnish",
+
+        contact_title: "Contact"
+    },
+
     pt: {
         name: "Luis Tieres",
         role: "Engenharia de Sistemas | Desenvolvedor",
@@ -28,7 +99,7 @@ const translations = {
 
         summary_p2: "Após ingressar na UFMG, ampliei minha formação acadêmica por meio da participação em dois projetos de iniciação científica na área de desenvolvimento de software full stack, além de um estágio em automação industrial, atuando com programação de PLCs, IHMs, sistemas supervisórios SCADA e ambientes Linux. Essas experiências fortaleceram minhas habilidades técnicas, analíticas e de resolução de problemas.",
 
-        summary_p3: "Possuo experiência prática no desenvolvimento de sistemas de gestão, atuando em todas as etapas do ciclo de desenvolvimento de software, incluindo modelagem e administração de bancos de dados (MySQL e PostgreSQL), bem como desenvolvimento backend e frontend utilizando Python (com PyQt6 para aplicações desktop), C, C++, JavaScript e HTML/CSS. Tenho especial interesse em engenharia de software, estruturas de dados e otimização de desempenho.",
+        summary_p3: "Possuo experiência prática no desenvolvimento de sistemas de gestão, atuando em todas as etapas do ciclo de desenvolvimento de software, incluindo modelagem e administração de bancos de dados (MySQL e PostgreSQL), bem como desenvolvimento backend e frontend utilizando Python (com PyQt6 para aplicações desktop), C, C++, TypeScript, JavaScript e HTML/CSS. Tenho especial interesse em engenharia de software, estruturas de dados e otimização de desempenho.",
 
         summary_p4: "Também participei de um programa de intercâmbio acadêmico na Universidade de Ciências Aplicadas de Kajaani, na Finlândia, onde cursei disciplinas ministradas integralmente em inglês, com foco em ciência da computação e desenvolvimento digital. Para essa experiência, dediquei-me intensamente ao estudo do inglês e alcancei um alto nível de proficiência em um ano. Atualmente, iniciei também o estudo do francês.",
 
@@ -76,91 +147,22 @@ const translations = {
         Books: "Livros",
 
         contact_title: "Contato"
-    },
-
-    en: {
-        name: "Luis Tieres",
-        role: "Systems Engineering | Developer",
-
-        menu_about: "About",
-        menu_education: "Education",
-        menu_experience: "Experience",
-        menu_projects: "Projects",
-        menu_Skills:"Skills",
-        menu_contact: "Contact",
-        hobbies: "Others",
-        
-
-        about_title: "About me",
-        about_short: "Systems Engineering (UFMG) | Electrical Technician (CEFET-MG) | Software development, automation and scientific research",
-
-        summary_title: "Professional Summary",
-        summary_p1: "I am a Systems Engineering student at UFMG and a certified Electrical Technician from CEFET-MG, where I completed both my technical education and high school. During this period, I completed an IT internship at photovoltaic power plants, which played an important role in building my professional foundation.",
-
-        summary_p2: "After joining UFMG, I expanded my academic background by participating in two scientific research projects focused on full stack software development, as well as completing an internship in industrial automation, working with PLC programming, HMIs, SCADA supervisory systems and Linux environments. These experiences strengthened my technical, analytical and problem-solving skills.",
-
-        summary_p3: "I have hands-on experience in management system development, working across all stages of the software development lifecycle, including database modeling and administration (MySQL and PostgreSQL), as well as backend and frontend development using Python (including PyQt6 for desktop applications), C, C++, JavaScript and HTML/CSS. I have a strong interest in software engineering, data structures and performance optimization.",
-
-        summary_p4: "I also participated in an academic exchange program at Kajaani University of Applied Sciences in Finland, where I attended courses fully taught in English, focused on computer science and digital development. To prepare for this experience, I dedicated myself intensively to learning English and achieved a high level of proficiency within one year. I have recently also started studying French.",
-
-        summary_p5: "My profile is marked by dedication, resilience and proactivity. I constantly seek to improve my technical and interpersonal skills, aiming to build a solid and impactful career in technology and contribute to innovative projects with global relevance.",
-        
-        education: "Education",
-
-        "Técnico": "Electrical Technician – CEFET-MG (2018 to 2020)",
-        "Engenharia": "Systems Engineering – UFMG (2022 to 2027)",
-        "Intercâmbio": "Computer Science Exchange Program – Finland – KAMK University (2025)",
-
-        experiencia: "Experience",
-
-        "Estágio": "IT Internship – Solar Power Plant – Solar Energia (2020)",
-        "Iniciação": "Scientific Research – Software Development – Hospital das Clínicas UFMG (2023 to 2025)",
-        "Automação": "Automation Internship – Hydroelectric Power Plant – Snef Brasil (2024 to 2025)",
-
-        projetos: "Projects",
-
-        projeto_SISTEMA: "Hospital Bed Management System",
-        projeto_SISTEMA_SOBRE: "Desktop application developed in Python (PyQt6) using MySQL, PostgreSQL and API integration.",
-
-        projeto_Robber: "Robber Game",
-        projeto_Robber_SOBRE: "The Robber is a dynamic game where the player takes on the role of a thief trying to steal vegetables from a farmer’s garden without being caught. Developed in C# using Unity.",
-
-
-        languages_title: "Languages",
-        habilidades: "Softwares",
-        languages_skills: "Skills",
-        hobbies: "Other Experience and Interests",
-        Run: "Running",
-        runnn1: "Best Brazilian in the Helsinki marathon",
-        runnn2: "Third overall in the Duque de Caxias Race",
-        runnn3: "Breakthrough athlete 2019",
-        Events: "Events",
-        event1: "PyCon Finland 2025",
-        event3: "Polyglot Meeting",
-        Books: "Books",
-        book1:"Brave New World",
-        book2:"The richest man in Babylon",
-        book3:"Posthumous Memoirs of Brás Cubas",
-        book4:"Space Trilogy",
-        lang_en: "English",
-        lang_fi: "Finnish",
-
-        contact_title: "Contact"
     }
 };
 
+document.addEventListener("DOMContentLoaded", () => {
+    const savedLang = localStorage.getItem("language") || "en";  
+    setLanguage(savedLang);
+});
 
 function setLanguage(lang) {
     document.querySelectorAll("[data-i18n]").forEach(el => {
         const key = el.getAttribute("data-i18n");
-        if (translations[lang][key]) {
+        if (translations[lang] && translations[lang][key]) {
             el.textContent = translations[lang][key];
         }
     });
+    // Salva a escolha no localStorage
     localStorage.setItem("language", lang);
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    const savedLang = localStorage.getItem("language") || "pt";
-    setLanguage(savedLang);
-});
