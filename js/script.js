@@ -150,17 +150,40 @@ const translations = {
     }
 };
 
+document.addEventListener("DOMContentLoaded", () => {
+    // Carrega header e footer primeiro
+    loadComponent("header", "/portfolio/components/header.html");
+    loadComponent("footer", "/portfolio/components/footer.html");
+    
+    // Depois carrega a seção principal
+    loadComponent("sobre", "/portfolio/pages/sobre.html");
+
+    // Expõe a função globalmente
+    window.setLanguage = setLanguage;
+});
+
+function loadComponent(id, file) {
+    fetch(file)
+        .then(res => res.text())
+        .then(data => {
+            const container = document.getElementById(id);
+            if (!container) return;
+
+            container.innerHTML = data;
+
+            // 🔥 Se for o header, ativa os botões de idioma
+            if (id === "header") {
+                setupLanguageButtons();
+            }
+        })
+        .catch(err => console.error("Erro ao carregar:", file, err));
+}
+
 function setupLanguageButtons() {
     document.querySelectorAll(".flag").forEach(btn => {
         btn.addEventListener("click", () => {
-            const lang = btn.getAttribute("data-lang");
+            const lang = btn.getAttribute("data-lang"); // use data-lang, não onclick
             setLanguage(lang);
         });
     });
 }
-
-
-loadComponent("sobre", "/portfolio/pages/sobre.html");
-loadComponent("header", "/portfolio/components/header.html");
-loadComponent("footer", "/portfolio/components/footer.html");
-window.setLanguage = setLanguage;
