@@ -28,7 +28,7 @@ function loadPage(page) {
     if (page === "network") {
         console.log("Renderizando networks2", page)
         // Páginas que precisam de JS extra
-        loadComponent("content", `/portfolio/pages/nets.html`).then(() => {
+        loadComponent("content", `/portfolio/pages/network.html`).then(() => {
             import("/portfolio/js/net.js").then(module => {
                 module.renderNetworks();
             });
