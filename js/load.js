@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // Função para carregar páginas dentro do content
 function loadPage(page) {
     console.log("Renderizando networks1", page)
-    if (page === "nets") {
+    if (page === "network") {
         console.log("Renderizando networks1", page)
         // Páginas que precisam de JS extra
         loadComponent("content", `/portfolio/pages/nets.html`).then(() => {
