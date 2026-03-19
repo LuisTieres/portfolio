@@ -1,5 +1,5 @@
 function loadComponent(id, file) {
-    fetch(file)
+    return fetch(file)
         .then(res => {
             if (!res.ok) throw new Error(`Erro ao carregar ${file}`);
             return res.text();
@@ -9,10 +9,8 @@ function loadComponent(id, file) {
             if (!container) return;
             container.innerHTML = data;
 
-            // Se for header, ativa botões de idioma
             if (id === "header") setupLanguageButtons();
-        })
-        .catch(err => console.error(err));
+        });
 }
 
 // Carrega sempre header e footer primeiro

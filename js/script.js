@@ -149,3 +149,10 @@ const translations = {
         contact_title: "Contato"
     }
 };
+
+loadComponent("header", "/portfolio/components/header.html")
+    .then(() => {
+        renderNetworks(); // agora o container existe
+    });
+
+loadComponent("footer", "/portfolio/components/footer.html");

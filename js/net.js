@@ -39,4 +39,4 @@ function renderNetworks() {
 }
 
 // Executa só quando o DOM estiver carregado
-document.addEventListener("DOMContentLoaded", renderNetworks);
+renderNetworks();
