@@ -326,15 +326,25 @@ section ul li:hover {
 }
 .social-links a {
     color: white;
-    background-color: rgba(255,255,255,0.1);
-    padding: 6px 12px;
-    border-radius: 6px;
-    margin-right: 10px;
-    transition: 0.3s;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 500;
+    position: relative;
 }
 
-.social-links a:hover {
-    background-color: rgba(255,255,255,0.2);
+.social-links a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: white;
+    left: 0;
+    bottom: -3px;
+    transition: width 0.3s;
+}
+
+.social-links a:hover::after {
+    width: 100%;
 }
 .download-cv:hover {
     background-color: #333;
