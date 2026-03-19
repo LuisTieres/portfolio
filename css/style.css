@@ -289,7 +289,12 @@ section ul li:hover {
     flex-wrap: wrap;
     gap: 12px;
 }
-
+.skills-container-PJ {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 10px;
+}
 .skill {
     background: linear-gradient(135deg, #2563eb, #1e40af);
     color: #ffffff;
@@ -300,7 +305,16 @@ section ul li:hover {
     box-shadow: 0 6px 18px rgba(37, 99, 235, 0.4);
     transition: transform 0.25s ease;
 }
-
+.skill-PJ{
+    background: linear-gradient(135deg, #f8f8f8, #d2dcfc);
+    color: #2ca3e9;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    box-shadow: 0 6px 18px rgba(247, 247, 247, 0.4);
+    transition: transform 0.25s ease;
+}
 .skill:hover {
     transform: scale(1.1);
 }
