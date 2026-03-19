@@ -397,7 +397,11 @@ section ul li:hover {
     display: flex;
     flex-direction: column;
 }
-
+.network p {
+    font-size: 12px;       
+    font-weight: bold;     
+    color: black;        
+}
 .network-links {
     display: flex;
     gap: 15px;
