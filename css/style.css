@@ -324,7 +324,16 @@ section ul li:hover {
     border-radius: 8px;
     font-weight: bold;
 }
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 500;
+}
 
+.social-links a:hover {
+    color: #cccccc;
+}
 .download-cv:hover {
     background-color: #333;
 }
