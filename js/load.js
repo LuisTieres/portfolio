@@ -26,12 +26,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Função para carregar páginas dentro do content
 function loadPage(page) {
-    if (!document.getElementById("content")) {
-        window.location.href = "/portfolio/index.html"; // volta pro index
-        return;
-    }
+    
     loadComponent("content", `/portfolio/pages/${page}.html`);
 }
+
+function loadPage_sobre(page) {
+    
+    loadComponent("header", "/portfolio/components/header.html");
+    loadComponent("footer", "/portfolio/components/footer.html");
+
+    // Carrega a página inicial
+    loadPage("sobre");}
 
 // Expondo globalmente
 window.loadPage = loadPage;
