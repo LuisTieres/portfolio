@@ -160,8 +160,7 @@ function setupLanguageButtons() {
 }
 
 
-loadComponent("header", "components/header.html");
-loadComponent("sobre", "pages/sobre.html");
-
-loadComponent("footer", "components/footer.html");
+loadComponent("sobre", "/portfolio/pages/sobre.html");
+loadComponent("header", "/portfolio/components/header.html");
+loadComponent("footer", "/portfolio/components/footer.html");
 window.setLanguage = setLanguage;

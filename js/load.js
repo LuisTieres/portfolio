@@ -10,5 +10,7 @@ function loadComponent(id, file) {
             }
         });
 }
-loadComponent("header", "..//components/header.html");
-loadComponent("footer", "..//components/footer.html");
+
+loadComponent("sobre", "/portfolio/pages/sobre.html");
+loadComponent("header", "/portfolio/components/header.html");
+loadComponent("footer", "/portfolio/components/footer.html");
