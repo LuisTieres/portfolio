@@ -306,8 +306,8 @@ section ul li:hover {
     transition: transform 0.25s ease;
 }
 .skill-PJ{
-    background: linear-gradient(135deg, #f8f8f8, #d2dcfc);
-    color: #2ca3e9;
+    background-color: #ffffff;
+    color: rgb(0, 4, 255);
     padding: 8px 16px;
     border-radius: 20px;
     font-size: 0.95rem;
@@ -352,8 +352,8 @@ section ul li:hover {
 
 .links-projeto a {
     text-decoration: none;
-    background-color: #0077b5;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 4, 255);
     padding: 6px 12px;
     border-radius: 6px;
     margin-right: 8px;
