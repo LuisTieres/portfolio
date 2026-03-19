@@ -2,7 +2,9 @@
 import { nets } from "/portfolio/data/nets.js";
 
 export function renderNetworks() {
+    console.log("Renderizando networks1", nets);
     const container = document.getElementById("networks");
+    console.log("Renderizando networks2", nets);
     if (!container) return;
 
     nets.forEach(net => {
