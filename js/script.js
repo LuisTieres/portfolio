@@ -151,8 +151,8 @@ const translations = {
 };
 document.addEventListener("DOMContentLoaded", () => {
     // Carrega os componentes
-    loadComponent("header", "components/header.html");
-    loadComponent("footer", "components/footer.html");
+    loadComponent("header", "/portfoliocomponents/header.html");
+    loadComponent("footer", "/portfoliocomponents/footer.html");
     loadComponent("sobre", "/portfolio/pages/sobre.html"); // garante o caminho certo
     // Expõe a função globalmente
     window.setLanguage = setLanguage;
