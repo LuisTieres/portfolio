@@ -449,7 +449,7 @@ section ul li:hover {
     border: 3px solid white;
 }
 .contato{
-    height: max-content;
+    height: auto;
 }
 
 /* Datas */
