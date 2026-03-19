@@ -149,14 +149,11 @@ const translations = {
         contact_title: "Contato"
     }
 };
-
 document.addEventListener("DOMContentLoaded", () => {
-    // Carrega header e footer primeiro
-    loadComponent("header", "/portfolio/components/header.html");
-    loadComponent("footer", "/portfolio/components/footer.html");
-    
-    // Depois carrega a seção principal
-    loadComponent("sobre", "/portfolio/pages/sobre.html");
+    // Carrega os componentes
+    loadComponent("header", "components/header.html");
+    loadComponent("footer", "components/footer.html");
+    loadComponent("sobre", "pages/sobre.html");
 
     // Expõe a função globalmente
     window.setLanguage = setLanguage;
@@ -164,25 +161,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function loadComponent(id, file) {
     fetch(file)
-        .then(res => res.text())
+        .then(res => {
+            if (!res.ok) throw new Error("Erro ao carregar " + file);
+            return res.text();
+        })
         .then(data => {
             const container = document.getElementById(id);
             if (!container) return;
 
             container.innerHTML = data;
 
-            // 🔥 Se for o header, ativa os botões de idioma
+            // Se for header, ativa botões
             if (id === "header") {
                 setupLanguageButtons();
             }
         })
-        .catch(err => console.error("Erro ao carregar:", file, err));
+        .catch(err => console.error(err));
 }
 
 function setupLanguageButtons() {
     document.querySelectorAll(".flag").forEach(btn => {
         btn.addEventListener("click", () => {
-            const lang = btn.getAttribute("data-lang"); // use data-lang, não onclick
+            const lang = btn.getAttribute("data-lang");
             setLanguage(lang);
         });
     });
