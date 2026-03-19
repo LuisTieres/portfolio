@@ -9,7 +9,7 @@ function loadComponent(id, file) {
             if (!container) return;
             container.innerHTML = data;
 
-            if (id === "header") setupLanguageButtons();
+            //if (id === "header") setupLanguageButtons();
         });
 }
 
