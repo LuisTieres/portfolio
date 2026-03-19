@@ -155,14 +155,11 @@ document.addEventListener("DOMContentLoaded", () => {
     setLanguage(savedLang);
 });
 
-function setLanguage(lang) {
-    document.querySelectorAll("[data-i18n]").forEach(el => {
-        const key = el.getAttribute("data-i18n");
-        if (translations[lang] && translations[lang][key]) {
-            el.textContent = translations[lang][key];
-        }
+// Seleciona todos os botões de idioma
+document.querySelectorAll(".lang-switch button").forEach(btn => {
+    btn.addEventListener("click", () => {
+        const selectedLang = btn.getAttribute("data-lang"); // 'en' ou 'pt'
+        setLanguage(selectedLang);
     });
-    // Salva a escolha no localStorage
-    localStorage.setItem("language", lang);
-}
+});
 
