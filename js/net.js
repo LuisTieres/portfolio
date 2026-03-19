@@ -1,4 +1,4 @@
-import { nets } from "../data/nets.js";
+import { nets } from "/portfolio/data/nets.js"; // path absoluto para GitHub Pages
 
 function renderNetworks() {
     const container = document.getElementById("networks");
@@ -15,22 +15,21 @@ function renderNetworks() {
                 <h2>${net.nome}</h2>
                 <p>${net.descricao}</p>
 
-            <div class="network-links">
-                <a href="${net.linkedin}" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                    <span>LinkedIn</span>
-                </a>
+                <div class="network-links">
+                    <a href="${net.linkedin}" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
 
-                <a href="${net.github}" target="_blank">
-                    <i class="fab fa-github"></i>
-                    <span>GitHub</span>
-                </a>
+                    <a href="${net.github}" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
 
-                <a href="mailto:${net.email}">
-                    <i class="fas fa-envelope"></i>
-                    <span>Email</span>
-                </a>
-            </div>
+                    <a href="mailto:${net.email}">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
                 </div>
             </div>
         `;
@@ -39,4 +38,5 @@ function renderNetworks() {
     });
 }
 
+// Executa só quando o DOM estiver carregado
 document.addEventListener("DOMContentLoaded", renderNetworks);
