@@ -456,7 +456,8 @@ section ul li:hover {
 .timeline-date {
     font-weight: bold;
     color: #007bff;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    margin-right: 10px;
 }
 
 /* Localização */
