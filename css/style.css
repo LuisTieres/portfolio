@@ -337,7 +337,24 @@ section ul li:hover {
         grid-template-columns: 1fr;
     }
 }
+.links-projeto {
+    margin-top: 10px;
+}
 
+.links-projeto a {
+    text-decoration: none;
+    background-color: #0077b5;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-right: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.links-projeto a:hover {
+    background-color: #005582;
+}
 .idiomas-skills {
     margin: 80px auto;
     max-width: 1100px;
