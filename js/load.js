@@ -24,8 +24,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Função para carregar páginas dentro do content
 function loadPage(page) {
-    
-    loadComponent("content", `/portfolio/pages/${page}.html`);
+    if (page === "nets") {
+        // Páginas que precisam de JS extra
+        loadComponent("content", `/portfolio/pages/nets.html`).then(() => {
+            import("/portfolio/js/net.js").then(module => {
+                module.renderNetworks();
+            });
+        });
+    } else {
+        loadComponent("content", `/portfolio/pages/${page}.html`);
+    }
 }
 
 function loadPage_sobre(page) {

@@ -1,6 +1,7 @@
-import { nets } from "/portfolio/data/nets.js"; // path absoluto para GitHub Pages
+// net.js
+import { nets } from "/portfolio/data/nets.js";
 
-function renderNetworks() {
+export function renderNetworks() {
     const container = document.getElementById("networks");
     if (!container) return;
 
@@ -10,32 +11,16 @@ function renderNetworks() {
 
         card.innerHTML = `
             <img src="${net.foto}" alt="Foto de ${net.nome}" class="profile-pic">
-
             <div class="network-text">
                 <h2>${net.nome}</h2>
                 <p>${net.descricao}</p>
-
                 <div class="network-links">
-                    <a href="${net.linkedin}" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                        <span>LinkedIn</span>
-                    </a>
-
-                    <a href="${net.github}" target="_blank">
-                        <i class="fab fa-github"></i>
-                        <span>GitHub</span>
-                    </a>
-
-                    <a href="mailto:${net.email}">
-                        <i class="fas fa-envelope"></i>
-                        <span>Email</span>
-                    </a>
+                    <a href="${net.linkedin}" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="${net.github}" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="mailto:${net.email}"><i class="fas fa-envelope"></i> Email</a>
                 </div>
             </div>
         `;
-
         container.appendChild(card);
     });
 }
-
-// Executa só quando o DOM estiver carregado
