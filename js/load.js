@@ -1,9 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Carrega os componentes
-    loadComponent("header", "components/header.html");
-    loadComponent("footer", "components/footer.html");
-    loadComponent("sobre", "/portfolio/pages/sobre.html"); // garante o caminho certo
-
+    loadComponent("header", "/portfolio/components/header.html");
+    loadComponent("footer", "/portfolio/components/footer.html");
+    loadComponent("sobre", "/portfolio/pages/sobre.html");  
     // Expõe a função globalmente
     window.setLanguage = setLanguage;
 });
