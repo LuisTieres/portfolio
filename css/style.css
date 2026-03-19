@@ -448,6 +448,9 @@ section ul li:hover {
     border-radius: 50%;
     border: 3px solid white;
 }
+.contato{
+    height: max-content;
+}
 
 /* Datas */
 .timeline-date {
