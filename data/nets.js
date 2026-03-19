@@ -17,6 +17,14 @@ export const nets = [
     descricao: "Software Developer & Automation Intern Siemens | Control & Automation Engineering Student UFMG",
     foto: "/portfolio/assets/img/riquelme.png",
     email: "fantoche3m@gmail.com"
+  },
+  {
+    linkedin: "https://www.linkedin.com/in/ana-clara-alves-83100b258/",
+    github: "https://github.com/acriles",
+    nome: "Ana Clara Alves",
+    descricao: "SEng. Mecânica | Uit",
+    foto: "/portfolio/assets/img/ana.png",
+    email: "anaclara-faria@outlook.com"
   }
   
 ];
