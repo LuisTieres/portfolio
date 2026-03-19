@@ -26,6 +26,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Função para carregar páginas dentro do content
 function loadPage(page) {
+    if (!document.getElementById("content")) {
+        window.location.href = "/portfolio/index.html"; // volta pro index
+        return;
+    }
     loadComponent("content", `/portfolio/pages/${page}.html`);
 }
 
