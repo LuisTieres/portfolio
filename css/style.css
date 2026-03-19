@@ -476,8 +476,8 @@ section ul li:hover {
     margin-bottom: 5px;
 }
 .timeline-item h3{
-    
-    margin-bottom: 5px;
+    padding-left: 10px;
+    margin-left: 15px;
 }
 
 /* Certifique-se de que html e body ocupem 100% da altura */
