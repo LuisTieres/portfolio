@@ -479,3 +479,28 @@ section ul li:hover {
     
     margin-bottom: 5px;
 }
+
+/* Certifique-se de que html e body ocupem 100% da altura */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Coloca todo o conteúdo em um container flexível */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Faz a seção principal crescer para ocupar o espaço disponível */
+main {
+    flex: 1;
+}
+
+/* Footer fica naturalmente no fim */
+footer {
+    background-color: #0d3b66; /* ou sua cor atual */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
