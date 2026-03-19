@@ -8,6 +8,18 @@
             <button class="flag flag-br" data-lang="pt" aria-label="Português"></button>
         </div>     
     </div>
+
+    <button id="music-toggle">Pausar / Tocar música</button>
+
+    <script>
+        const music = document.getElementById("background-music");
+        const btn = document.getElementById("music-toggle");
+
+        btn.addEventListener("click", () => {
+            if (music.paused) music.play();
+            else music.pause();
+        });
+    </script>
 </header>
 
 <nav>
