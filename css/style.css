@@ -315,7 +315,7 @@ section ul li:hover {
     box-shadow: 0 6px 18px rgba(247, 247, 247, 0.4);
     transition: transform 0.25s ease;
 }
-.btn-cv {
+.download-cv {
     display: inline-block;
     padding: 10px 20px;
     background-color: #000;
@@ -325,7 +325,7 @@ section ul li:hover {
     font-weight: bold;
 }
 
-.btn-cv:hover {
+.download-cv:hover {
     background-color: #333;
 }
 .skill:hover {
