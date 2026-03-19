@@ -36,12 +36,6 @@ function loadPage_sobre(page) {
     // Carrega a página inicial
     loadPage("sobre");}
 
-function loadPage_net(page) {
-    
-    loadComponent("content", `/portfolio/pages/${page}.html`);
-    renderNetworks();
-}
-
 // Expondo globalmente
 window.loadPage = loadPage;
 window.setLanguage = setLanguage;
