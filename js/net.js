@@ -2,21 +2,9 @@ import { nets } from "/portfolio/data/nets.js"; // path absoluto para GitHub Pag
 
 function renderNetworks() {
     const container = document.getElementById("networks");
+    if (!container) return;
 
-    if (!container) {
-        console.error("❌ Container #networks não encontrado no DOM!");
-        return;
-    } else {
-        console.log("✅ Container #networks encontrado:", container);
-    }
-
-    nets.forEach((net, index) => {
-        console.log(`🔹 Renderizando net[${index}]:`, net);
-        console.log("Caminho da foto:", net.foto);
-        console.log("LinkedIn:", net.linkedin);
-        console.log("GitHub:", net.github);
-        console.log("Email:", net.email);
-
+    nets.forEach(net => {
         const card = document.createElement("section");
         card.classList.add("network-card");
 
@@ -48,12 +36,6 @@ function renderNetworks() {
 
         container.appendChild(card);
     });
-
-    console.log("✅ Todas as redes foram renderizadas!");
 }
 
 // Executa só quando o DOM estiver carregado
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("📦 DOM carregado, iniciando renderNetworks...");
-    renderNetworks();
-});
