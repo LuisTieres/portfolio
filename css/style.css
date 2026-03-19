@@ -421,3 +421,53 @@ section ul li:hover {
 .network-links i {
     font-size: 18px;
 }
+
+/* Timeline container */
+.timeline-container {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 3px solid #007bff;
+}
+
+/* Linha do tempo: cada item */
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+/* Círculo na linha do tempo */
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    background-color: #007bff;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+/* Datas */
+.timeline-date {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+/* Localização */
+.location {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+/* Lista de atividades */
+.timeline-item ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.timeline-item li {
+    margin-bottom: 5px;
+}
