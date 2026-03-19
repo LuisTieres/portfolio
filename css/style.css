@@ -456,7 +456,7 @@ section ul li:hover {
 .timeline-date {
     font-weight: bold;
     color: #007bff;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 /* Localização */
@@ -472,5 +472,9 @@ section ul li:hover {
 }
 
 .timeline-item li {
+    margin-bottom: 5px;
+}
+.timeline-item h3{
+    
     margin-bottom: 5px;
 }

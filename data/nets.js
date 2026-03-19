@@ -7,7 +7,7 @@ export const nets = [
     github: "https://github.com/quantthieres",
     nome: "Lucas Thieres",
     descricao: "Economista | Data Analyst l CPA 20 - Anbima.",
-    foto: "/portfolio/assets/img/Lucas.png",
+    foto: "/portfolio/assets/img/lucas.png",
     email: "lucas.thieres.ofc@gmail.com"
   },
     {
