@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Carrega os componentes
     loadComponent("header", "/portfolio/components/header.html");
     loadComponent("footer", "/portfolio/components/footer.html");
-    loadComponent("sobre", "/portfolio/index.html");  
+    loadComponent("sobre", "/portfolio/pages/sobre.html");  
     // Expõe a função globalmente
     window.setLanguage = setLanguage;
 });
