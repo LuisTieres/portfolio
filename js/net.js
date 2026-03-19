@@ -2,7 +2,6 @@ import { nets } from "/portfolio/data/nets.js"; // path absoluto para GitHub Pag
 
 function renderNetworks() {
     const container = document.getElementById("networks");
-    if (!container) return;
 
     nets.forEach(net => {
         const card = document.createElement("section");
