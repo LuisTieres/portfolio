@@ -35,7 +35,12 @@ function loadPage_sobre(page) {
 
     // Carrega a página inicial
     loadPage("sobre");}
+loadComponent("header", "/portfolio/components/header.html")
+    .then(() => {
+        renderNetworks(); // agora o container existe
+    });
 
+loadComponent("footer", "/portfolio/components/footer.html");
 // Expondo globalmente
 window.loadPage = loadPage;
 window.setLanguage = setLanguage;

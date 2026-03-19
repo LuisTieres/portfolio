@@ -150,9 +150,3 @@ const translations = {
     }
 };
 
-loadComponent("header", "/portfolio/components/header.html")
-    .then(() => {
-        renderNetworks(); // agora o container existe
-    });
-
-loadComponent("footer", "/portfolio/components/footer.html");
