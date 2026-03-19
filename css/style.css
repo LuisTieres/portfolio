@@ -332,6 +332,14 @@ section ul li:hover {
     font-weight: 700;
 }
 
+.section-title-hobbies {
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
 .idiomas-skills-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -369,4 +377,47 @@ section ul li:hover {
     font-size: 0.85rem;
     margin-top: 6px;
     color: #555;
+}
+
+.network-card {
+    display: flex;
+    align-items: center; /* 🔥 ALINHAMENTO VERTICAL */
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.network-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.network-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.network-links a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+.network-links a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.network-links i {
+    font-size: 18px;
 }

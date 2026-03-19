@@ -33,7 +33,7 @@ const translations = {
 
         summary_p3: "I have hands-on experience in management system development, working across all stages of the software development lifecycle, including database modeling and administration (MySQL and PostgreSQL), as well as backend and frontend development using Python (including PyQt6 for desktop applications), C, C++, TypeScript, JavaScript and HTML/CSS. I have a strong interest in software engineering, data structures and performance optimization.",
 
-        summary_p4: "I also participated in an academic exchange program at Kajaani University of Applied Sciences in Finland, where I attended courses fully taught in English, focused on computer science and digital development. To prepare for this experience, I dedicated myself intensively to learning English and achieved a high level of proficiency within one year. I have recently also started studying French.",
+        summary_p4: "I also participated in an academic exchange program at Kajaani University of Applied Sciences in Finland, where I attended courses fully taught in English, focused on computer science and digital development. To prepare for this experience, I dedicated myself intensively to learning English and achieved a high level of proficiency within one year.",
 
         summary_p5: "My profile is marked by dedication, resilience and proactivity. I constantly seek to improve my technical and interpersonal skills, aiming to build a solid and impactful career in technology and contribute to innovative projects with global relevance.",
         
@@ -101,7 +101,7 @@ const translations = {
 
         summary_p3: "Possuo experiência prática no desenvolvimento de sistemas de gestão, atuando em todas as etapas do ciclo de desenvolvimento de software, incluindo modelagem e administração de bancos de dados (MySQL e PostgreSQL), bem como desenvolvimento backend e frontend utilizando Python (com PyQt6 para aplicações desktop), C, C++, TypeScript, JavaScript e HTML/CSS. Tenho especial interesse em engenharia de software, estruturas de dados e otimização de desempenho.",
 
-        summary_p4: "Também participei de um programa de intercâmbio acadêmico na Universidade de Ciências Aplicadas de Kajaani, na Finlândia, onde cursei disciplinas ministradas integralmente em inglês, com foco em ciência da computação e desenvolvimento digital. Para essa experiência, dediquei-me intensamente ao estudo do inglês e alcancei um alto nível de proficiência em um ano. Atualmente, iniciei também o estudo do francês.",
+        summary_p4: "Também participei de um programa de intercâmbio acadêmico na Universidade de Ciências Aplicadas de Kajaani, na Finlândia, onde cursei disciplinas ministradas integralmente em inglês, com foco em ciência da computação e desenvolvimento digital. Para essa experiência, dediquei-me intensamente ao estudo do inglês e alcancei um alto nível de proficiência em um ano.",
 
         summary_p5: "Meu perfil é marcado por dedicação, resiliência e proatividade. Busco constantemente aprimorar minhas habilidades técnicas e interpessoais, com o objetivo de construir uma carreira sólida e impactante na área de tecnologia, contribuindo para projetos inovadores e de relevância global.",
 
@@ -150,19 +150,18 @@ const translations = {
     }
 };
 
-document.addEventListener("DOMContentLoaded", () => {
-    const savedLang = localStorage.getItem("language") || "en";  
-    setLanguage(savedLang);
-});
-
-function setLanguage(lang) {
-    document.querySelectorAll("[data-i18n]").forEach(el => {
-        const key = el.getAttribute("data-i18n");
-        if (translations[lang] && translations[lang][key]) {
-            el.textContent = translations[lang][key];
-        }
+function setupLanguageButtons() {
+    document.querySelectorAll(".flag").forEach(btn => {
+        btn.addEventListener("click", () => {
+            const lang = btn.getAttribute("data-lang");
+            setLanguage(lang);
+        });
     });
-    // Salva a escolha no localStorage
-    localStorage.setItem("language", lang);
 }
 
+
+loadComponent("header", "components/header.html");
+loadComponent("sobre", "pages/sobre.html");
+
+loadComponent("footer", "components/footer.html");
+window.setLanguage = setLanguage;
