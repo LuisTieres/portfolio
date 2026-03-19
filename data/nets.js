@@ -25,6 +25,15 @@ export const nets = [
     descricao: "SEng. Mecânica | Uit",
     foto: "/portfolio/assets/img/ana.png",
     email: "anaclara-faria@outlook.com"
+  },
+
+  {
+    linkedin: "https://www.linkedin.com/in/arthur-reis-0b64b8241?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQKrpm6VnQuqnObVawHsyeQ%3D%3D",
+    github: "https://github.com/arthurfreisouza",
+    nome: "Arthur Reis",
+    descricao: "Electrical Engineering student at UFMG",
+    foto: "/portfolio/assets/img/art.png",
+    email: "arthurfreisouza@gmail.com"
   }
   
 ];
