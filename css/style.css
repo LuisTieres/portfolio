@@ -315,6 +315,19 @@ section ul li:hover {
     box-shadow: 0 6px 18px rgba(247, 247, 247, 0.4);
     transition: transform 0.25s ease;
 }
+.btn-cv {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-cv:hover {
+    background-color: #333;
+}
 .skill:hover {
     transform: scale(1.1);
 }

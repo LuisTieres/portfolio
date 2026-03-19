@@ -163,3 +163,6 @@ document.querySelectorAll(".lang-switch button").forEach(btn => {
     });
 });
 
+document.getElementById("download-cv").addEventListener("click", () => {
+    window.location.href = "/portfolio/assets/cv/Luis_Tieres_CV.pdf";
+});
