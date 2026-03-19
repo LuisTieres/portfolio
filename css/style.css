@@ -437,7 +437,8 @@ section ul li:hover {
 /* Linha do tempo: cada item */
 .timeline-item {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    gap: 15px;
 }
 
 /* Círculo na linha do tempo */
