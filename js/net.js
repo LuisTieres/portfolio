@@ -39,4 +39,3 @@ function renderNetworks() {
 }
 
 // Executa só quando o DOM estiver carregado
-renderNetworks();
