@@ -316,7 +316,7 @@ section ul li:hover {
     transition: transform 0.25s ease;
 }
 .download-cv {
-    weight: 30%;
+    max-width: 30%;
     padding: 10px 20px;
     background-color: #000;
     color: #fff;
