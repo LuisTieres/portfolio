@@ -166,3 +166,9 @@ document.querySelectorAll(".lang-switch button").forEach(btn => {
 document.getElementById("download-cv").addEventListener("click", () => {
     window.location.href = "/portfolio/assets/cv/Luis_Tieres_CV.pdf";
 });
+const music = document.getElementById('background-music');
+
+    // Tenta tocar automaticamente
+music.play().catch(() => {
+    console.log('Autoplay bloqueado pelo navegador.');
+});
