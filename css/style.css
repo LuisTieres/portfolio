@@ -316,13 +316,16 @@ section ul li:hover {
     transition: transform 0.25s ease;
 }
 .download-cv {
-    max-width: 30%;
+    display: block;
+    margin: 0 auto; 
+    max-width: 12%;
     padding: 10px 20px;
     background-color: #000;
     color: #fff;
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
+    text-align: center;
 }
 .social-links a {
     color: white;
