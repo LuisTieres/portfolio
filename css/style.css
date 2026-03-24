@@ -163,6 +163,7 @@ footer {
 .empresa4 img{
     position: relative;
     top: 9px;
+    left: 5px;
     width: 10%;
     height: 10%;     /* ALTURA FIXA */
     object-fit: cover;

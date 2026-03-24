@@ -164,7 +164,7 @@ const translations = {
 
         estagio1: "Estagiário de Automação ",
         estagio2: "Estagiário de Desenvolvimento",
-        estagio3: "Estagiário de TI Energia Solar",
+        estagio3: "Estagiário de TI em Energia Solar",
         ics: "Iniciação Científica – Desenvolvimento de Software ",
 
         netadmin1: "Desenvolvimento de rotinas automatizadas e processos agendados utilizando SQL e linguagens de programação",
