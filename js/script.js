@@ -19,23 +19,24 @@ const translations = {
         menu_experience: "Experience",
         menu_projects: "Projects",
         menu_Skills:"Skills",
-        menu_contact: "Contact",
+        menu_net: "Network",
         hobbies: "Others",
         
 
-        about_title: "About me",
-        about_short: "Systems Engineering (UFMG) | Electrical Technician (CEFET-MG) | Software development, automation and scientific research",
+       about_title: "Who is Luis?",
+        about_short: "Systems Engineering Student at UFMG | Backend Developer (Java & Spring Boot) | Electrical Technician (CEFET-MG) | Marathon Runner",
 
         summary_title: "Professional Summary",
-        summary_p1: "I am a Systems Engineering student at UFMG and a certified Electrical Technician from CEFET-MG, where I completed both my technical education and high school. During this period, I completed an IT internship at photovoltaic power plants, which played an important role in building my professional foundation.",
 
-        summary_p2: "After joining UFMG, I expanded my academic background by participating in two scientific research projects focused on full stack software development, as well as completing an internship in industrial automation, working with PLC programming, HMIs, SCADA supervisory systems and Linux environments. These experiences strengthened my technical, analytical and problem-solving skills.",
+        summary_p1: "I am a Systems Engineering student at UFMG and an Electrical Technician from CEFET-MG, with early experience in IT applied to photovoltaic power plants.",
 
-        summary_p3: "I have hands-on experience in management system development, working across all stages of the software development lifecycle, including database modeling and administration (MySQL and PostgreSQL), as well as backend and frontend development using Python (including PyQt6 for desktop applications), C, C++, TypeScript, JavaScript and HTML/CSS. I have a strong interest in software engineering, data structures and performance optimization.",
+        summary_p2: "During my academic journey, I participated in two scientific research projects focused on full stack software development, as well as completed an internship in industrial automation, working with PLC programming, HMIs, SCADA systems and Linux environments. These experiences strengthened my technical, analytical and problem-solving skills.",
+
+        summary_p3: "I have hands-on experience in software development, working across the full development lifecycle, including database modeling and administration (MySQL and PostgreSQL), as well as backend and frontend development using Java (Spring Boot), Python (including PyQt6), C, C++, TypeScript, JavaScript and HTML/CSS.",
 
         summary_p4: "I also participated in an academic exchange program at Kajaani University of Applied Sciences in Finland, where I attended courses fully taught in English, focused on computer science and digital development. To prepare for this experience, I dedicated myself intensively to learning English and achieved a high level of proficiency within one year. I have recently also started studying French.",
 
-        summary_p5: "My profile is marked by dedication, resilience and proactivity. I constantly seek to improve my technical and interpersonal skills, aiming to build a solid and impactful career in technology and contribute to innovative projects with global relevance.",
+        summary_p5: "Outside of technology, I am a long-distance runner and achieved the position of best Brazilian athlete at the Helsinki Marathon 2025. My profile is marked by dedication, resilience and proactivity, and I constantly seek to improve my technical and interpersonal skills.",
         
         education: "Education",
 
@@ -91,20 +92,20 @@ const translations = {
         menu_Skills:"Habilidades",
         menu_contact: "Contato",
 
-        about_title: "Sobre mim",
-        about_short: "Engenharia de Sistemas (UFMG) | Técnico em Eletrotécnica (CEFET-MG) | Desenvolvimento de sistemas, automação e pesquisa científica",
+        about_title: "Quem é Luis?",
+        about_short: "Estudante de Engenharia de Sistemas na UFMG | Desenvolvedor Backend (Java & Spring Boot) | Técnico em Eletrotécnica (CEFET-MG) | Maratonista",
 
         summary_title: "Resumo Profissional",
-        summary_p1: "Sou estudante de Engenharia de Sistemas na UFMG e técnico em Eletrotécnica formado pelo CEFET-MG, instituição na qual concluí tanto minha formação técnica quanto o ensino médio. Durante esse período, realizei um estágio em TI em usinas fotovoltaicas, experiência que contribuiu significativamente para a construção da minha base profissional.",
 
-        summary_p2: "Após ingressar na UFMG, ampliei minha formação acadêmica por meio da participação em dois projetos de iniciação científica na área de desenvolvimento de software full stack, além de um estágio em automação industrial, atuando com programação de PLCs, IHMs, sistemas supervisórios SCADA e ambientes Linux. Essas experiências fortaleceram minhas habilidades técnicas, analíticas e de resolução de problemas.",
+        summary_p1: "Sou estudante de Engenharia de Sistemas na UFMG e Técnico em Eletrotécnica pelo CEFET-MG, com experiência inicial em TI aplicada a usinas fotovoltaicas.",
 
-        summary_p3: "Possuo experiência prática no desenvolvimento de sistemas de gestão, atuando em todas as etapas do ciclo de desenvolvimento de software, incluindo modelagem e administração de bancos de dados (MySQL e PostgreSQL), bem como desenvolvimento backend e frontend utilizando Python (com PyQt6 para aplicações desktop), C, C++, TypeScript, JavaScript e HTML/CSS. Tenho especial interesse em engenharia de software, estruturas de dados e otimização de desempenho.",
+        summary_p2: "Durante minha trajetória acadêmica, participei de dois projetos de iniciação científica voltados ao desenvolvimento full stack, além de realizar um estágio em automação industrial, atuando com programação de CLPs, IHMs, sistemas supervisórios SCADA e ambientes Linux. Essas experiências fortaleceram minhas habilidades técnicas, analíticas e de resolução de problemas.",
 
-        summary_p4: "Também participei de um programa de intercâmbio acadêmico na Universidade de Ciências Aplicadas de Kajaani, na Finlândia, onde cursei disciplinas ministradas integralmente em inglês, com foco em ciência da computação e desenvolvimento digital. Para essa experiência, dediquei-me intensamente ao estudo do inglês e alcancei um alto nível de proficiência em um ano. Atualmente, iniciei também o estudo do francês.",
+        summary_p3: "Possuo experiência prática em desenvolvimento de software, atuando em todas as etapas do ciclo de desenvolvimento, incluindo modelagem e administração de bancos de dados (MySQL e PostgreSQL), além de desenvolvimento backend e frontend utilizando Java (Spring Boot), Python (incluindo PyQt6), C, C++, TypeScript, JavaScript e HTML/CSS.",
 
-        summary_p5: "Meu perfil é marcado por dedicação, resiliência e proatividade. Busco constantemente aprimorar minhas habilidades técnicas e interpessoais, com o objetivo de construir uma carreira sólida e impactante na área de tecnologia, contribuindo para projetos inovadores e de relevância global.",
+        summary_p4: "Também participei de um programa de intercâmbio acadêmico na Kajaani University of Applied Sciences, na Finlândia, onde cursei disciplinas ministradas integralmente em inglês, com foco em computação e desenvolvimento digital. Para isso, dediquei-me intensamente ao aprendizado do idioma, alcançando um alto nível de proficiência em um ano. Recentemente, iniciei também os estudos em francês.",
 
+        summary_p5: "Além da área de tecnologia, sou corredor de longa distância e conquistei a posição de melhor atleta brasileiro na Maratona de Helsinque 2025. Meu perfil é marcado por dedicação, resiliência e proatividade, buscando constantemente evoluir técnica e pessoalmente.",
 
         education: "Formação",
 
