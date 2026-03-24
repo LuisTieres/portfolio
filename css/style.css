@@ -134,7 +134,16 @@ footer {
     flex-direction: column;
     gap: 10px;
 }
-
+.empresa{
+    flex-direction: row;
+}
+.empresa img{
+    
+    width: 20%;
+    height: 20%;     /* ALTURA FIXA */
+    object-fit: cover;
+    border-radius: 10px;
+}
 .flag {
     width: 36px;
     height: 26px;
