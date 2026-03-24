@@ -555,13 +555,14 @@ section ul li:hover {
     font-weight: bold;
     color: #007bff;
     margin-bottom: 5px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 /* Localização */
 .location {
     font-style: italic;
     margin-bottom: 5px;
+    margin-left: 20px;
 }
 
 /* Lista de atividades */
