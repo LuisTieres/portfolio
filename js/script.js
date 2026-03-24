@@ -188,3 +188,9 @@ function setLanguage(lang) {
         }
     });
 }
+document.querySelectorAll(".lang-switch button").forEach(btn => {
+    btn.addEventListener("click", () => {
+        const selectedLang = btn.getAttribute("data-lang");
+        setLanguage(selectedLang);
+    });
+});
