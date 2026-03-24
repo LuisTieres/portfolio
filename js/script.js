@@ -49,7 +49,7 @@ const translations = {
 
         estagio1: "Automation Intern – Snef Brasil",
         estagio2: "Developer Intern – NetAdmin Software",
-        estagio3: "IT Intern – Solar Power Plant (Solar Energia)",
+        estagio3: "IT Intern –  Solar Energia",
         ics: "Undergraduate Researcher – Software Development | HC-UFMG",
 
         netadmin1: "Development of automated routines and scheduled processes using SQL and programming languages",
@@ -161,7 +161,7 @@ const translations = {
 
         estagio1: "Estagiário de Automação – Snef Brasil",
         estagio2: "Estagiário de Desenvolvimento – NetAdmin Software",
-        estagio3: "Estagiário de TI – Usina Solar (Solar Energia)",
+        estagio3: "Estagiário de TI – Solar Energia",
         ics: "Iniciação Científica – Desenvolvimento de Software | HC-UFMG",
 
         netadmin1: "Desenvolvimento de rotinas automatizadas e processos agendados utilizando SQL e linguagens de programação",
