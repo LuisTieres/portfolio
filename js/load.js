@@ -24,19 +24,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Função para carregar páginas dentro do content
 function loadPage(page) {
-    console.log("Renderizando networks1", page)
+    console.log("Renderizando networks1", page);
+
+    const savedLang = localStorage.getItem("language") || "en";
+
     if (page === "network") {
-        console.log("Renderizando networks2", page)
-        // Páginas que precisam de JS extra
+        console.log("Renderizando networks2", page);
+
         loadComponent("content", `/portfolio/pages/network.html`).then(() => {
             import("/portfolio/js/net.js").then(module => {
                 module.renderNetworks();
+                setLanguage(savedLang); // aplica depois de renderizar
             });
         });
     } else {
-        loadComponent("content", `/portfolio/pages/${page}.html`);
+        loadComponent("content", `/portfolio/pages/${page}.html`)
+            .then(() => {
+                setLanguage(savedLang); // aplica depois de carregar HTML
+            });
     }
-    setLanguage('en');
 }
 
 function loadPage_sobre(page) {

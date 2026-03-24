@@ -246,15 +246,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const savedLang = localStorage.getItem("language") || "en";  
     setLanguage(savedLang);
 });
-
-// Seleciona todos os botões de idioma
-document.querySelectorAll(".lang-switch button").forEach(btn => {
-    btn.addEventListener("click", () => {
-        const selectedLang = btn.getAttribute("data-lang"); // 'en' ou 'pt'
-        setLanguage(selectedLang);
-    });
-});
-
 document.getElementById("download-cv").addEventListener("click", () => {
     window.location.href = "/portfolio/assets/cv/Luis_Tieres_CV.pdf";
 });
