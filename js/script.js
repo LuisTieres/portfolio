@@ -307,10 +307,10 @@ const btn = document.querySelector("button[onclick='mutar()']");
 function mutar() {
     if (music.paused) {
         music.play();
-        btn.textContent = "🔊";
+        btn.textContent = "🎧 Play music";
     } else {
         music.pause();
-        btn.textContent = "🔇";
+        btn.textContent = "🔇 Stop music";
     }
 }
 let wasPlaying = false;
