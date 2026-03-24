@@ -50,8 +50,7 @@ const translations = {
         estagio1: "Automation Intern",
         estagio2: "Developer Intern",
         estagio3: "IT Intern Solar Energy ",
-        ics: "Undergraduate Researcher – Software Development",
-
+        ics: "Researcher – Software Development",
         netadmin1: "Development of automated routines and scheduled processes using SQL and programming languages",
         netadmin2: "Implementation and maintenance of integrations with Web APIs",
         netadmin3: "Performing queries, insertions, and updates in relational databases (SQL)",
@@ -170,7 +169,7 @@ const translations = {
         estagio1: "Estagiário de Automação ",
         estagio2: "Estagiário de Desenvolvimento",
         estagio3: "Estagiário de TI em Energia Solar",
-        ics: "Iniciação Científica – Desenvolvimento de Software ",
+        ics: "Pesquisa – Desenvolvimento de Software ",
 
         netadmin1: "Desenvolvimento de rotinas automatizadas e processos agendados utilizando SQL e linguagens de programação",
         netadmin2: "Implementação e manutenção de integrações com APIs Web",
@@ -246,7 +245,7 @@ const translations = {
         data_hc: "Mar 2023 – Set 2025",
         data_solar: "Fev 2021 – Out 2021",
 
-        cert1: "Técnico em Eletricidade (CEFET-MG) 2021",
+        cert1: "Técnico em Eletrotécnica (CEFET-MG) 2021",
         cert2: "Inovação Científica (Desenvolvimento de Software) 2024",
         cert3: "Inovação Científica (Desenvolvimento de Software) 2025",
         cert4: "Programa de Intercâmbio (Universidade KAMK) 2025",
