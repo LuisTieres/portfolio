@@ -161,7 +161,7 @@ const translations = {
         educationTitle: "Formação",
 
         edu1: "Curso Técnico em Eletrotécnica – CEFET-MG (2018 – 2020)",
-        edu2: "Graduação em Engenharia de Sistemas – UFMG (2022 – 2027)",
+        edu2: "Bacharelado em Engenharia de Sistemas – UFMG (2022 – 2027)",
         edu3: "Intercâmbio em Ciência da Computação – Kajaani University of Applied Sciences, Finlândia (2025)",
     
         experience: "Experiência",
@@ -311,19 +311,26 @@ document.querySelectorAll(".lang-switch button").forEach(btn => {
     });
 });
 
-const btn = document.querySelector("button[onclick='mutar()']");
 
 
-function mutar() {
-    if (music.paused) {
-        music.play();
-        btn.textContent = "🎧 Play music";
-    } else {
-        music.pause();
-        btn.textContent = "🔇 Stop music";
+const btn = document.querySelector(".mutar_btn");
+
+document.addEventListener("click", (e) => {
+    if (e.target.closest(".mutar_btn")) {
+        const btn = e.target.closest(".mutar_btn");
+        const music = document.getElementById('background-music');
+
+        if (music.paused) {
+            music.play();
+            btn.textContent = "🔊";
+        } else {
+            music.pause();
+            btn.textContent = "🔇";
+        }
+
+        music.volume = 0.1;
     }
-    music.volume = 0.1;
-}
+});
 let wasPlaying = false;
 
 // Detecta mudança de aba

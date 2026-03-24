@@ -120,18 +120,17 @@ footer {
 
 
 .lang-switch {
-    position: absolute;
-    top: 20px;
-    right: 30px;
     display: flex;
     gap: 10px;
+    
 }
 .lang-switch2 {
-    position: absolute;
+    position: fixed; 
     top: 20px;
     right: 30px;
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     gap: 10px;
 }
 .empresa{
@@ -187,6 +186,30 @@ footer {
 
 .flag-br {
     background-image: url("../assets/icons/br.png");
+}
+
+.mutar_btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background:white; /* verde spotify */
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.mutar_btn:hover {
+    transform: scale(1.1);
+    background: white;
+}
+
+.mutar_btn .icon {
+    font-size: 18px;
+    color: white;
 }
 
 .flag-us {
