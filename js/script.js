@@ -161,7 +161,7 @@ const translations = {
         educationTitle: "Formação",
 
         edu1: "Curso Técnico em Eletrotécnica – CEFET-MG (2018 – 2020)",
-        edu2: "Bacharelado em Engenharia de Sistemas – UFMG (2022 – 2027)",
+        edu2: "Graduação em Engenharia de Sistemas – UFMG (2022 – 2027)",
         edu3: "Intercâmbio em Ciência da Computação – Kajaani University of Applied Sciences, Finlândia (2025)",
     
         experience: "Experiência",
