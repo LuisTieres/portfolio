@@ -424,6 +424,7 @@ section ul li:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 15px;
+    scrollbar-width: auto;
 }
 
 /* Cada item */
