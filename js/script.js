@@ -249,12 +249,23 @@ document.addEventListener("DOMContentLoaded", () => {
 document.getElementById("download-cv").addEventListener("click", () => {
     window.location.href = "/portfolio/assets/cv/Luis_Tieres_CV.pdf";
 });
-const music = document.getElementById('background-music');
 
     // Tenta tocar automaticamente
-music.play().catch(() => {
-    console.log('Autoplay bloqueado pelo navegador.');
-});
+const music = document.getElementById('background-music');
+
+function enableAudio() {
+    music.play().catch(() => {
+        console.log('Erro ao tentar tocar música');
+    });
+
+    // remove o listener depois de ativar
+    document.removeEventListener("click", enableAudio);
+    document.removeEventListener("touchstart", enableAudio);
+}
+
+// escuta interação do usuário
+document.addEventListener("click", enableAudio);
+document.addEventListener("touchstart", enableAudio);
 
 function setLanguage(lang) {
     // salva no localStorage
@@ -277,3 +288,7 @@ document.querySelectorAll(".lang-switch button").forEach(btn => {
         setLanguage(selectedLang);
     });
 });
+
+function mutar(){
+    music.stop();
+}
