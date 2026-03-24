@@ -44,12 +44,32 @@ const translations = {
         "Engenharia": "Systems Engineering – UFMG (2022 to 2027)",
         "Intercâmbio": "Computer Science Exchange Program – Finland – KAMK University (2025)",
 
-        experiencia: "Experience",
+        experience: "Experience",
 
-        "Estágio": "IT Internship – Solar Power Plant – Solar Energia (2020)",
-        "Iniciação": "Scientific Research – Software Development – Hospital das Clínicas UFMG (2023 to 2025)",
-        "Automação": "Automation Internship – Hydroelectric Power Plant – Snef Brasil (2024 to 2025)",
+        estagio1: "Automation Intern – Snef Brasil",
+        estagio2: "Developer Intern – NetAdmin Software",
+        estagio3: "IT Intern – Solar Power Plant (Solar Energia)",
+        ics: "Undergraduate Researcher – Software Development | HC-UFMG",
 
+        netadmin1: "Development of automated routines and scheduled processes using SQL and programming languages",
+        netadmin2: "Implementation and maintenance of integrations with Web APIs",
+        netadmin3: "Performing queries, insertions, and updates in relational databases (SQL)",
+        netadmin4: "Support in the technical documentation of system modules and functionalities",
+
+        snef1: "Developed and supported systems for industrial environments",
+        snef2: "Implemented SCADA systems and HMI interfaces",
+        snef3: "Worked with Linux-based environments and automation tools",
+        snef4: "Produced technical documentation and supported production systems",
+
+        hc1: "Developed a hospital management desktop system using Python and PyQt6",
+        hc2: "Designed and integrated MySQL and PostgreSQL databases",
+        hc3: "Implemented data synchronization and system communication via REST APIs",
+        hc4: "Gained hands-on experience in real-world healthcare systems",
+
+        solar1: "Monitored photovoltaic systems and supported plant operations",
+        solar2: "Performed basic electrical measurements and system analysis",
+        solar3: "Contributed to technical documentation and performance reports",
+        solar4: "Collaborated in problem-solving within an industrial environment",
         projetos: "Projects",
 
         projeto_SISTEMA: "Hospital Bed Management System",
@@ -77,8 +97,12 @@ const translations = {
         book4:"Space Trilogy",
         lang_en: "English",
         lang_fi: "Finnish",
-
-        contact_title: "Contact"
+        cert1:"Electrical Technician (CEFET-MG) 2021",
+        cert2:"Science Innovation (Software Development) 2024",
+        cert3:"Science Innovation (Software Development) 2025",
+        cert4:"Exchange Program (KAMK University) 2025",
+        contact_title: "Contact",
+        cert: "Cerifications"
     },
 
     pt: {
@@ -113,11 +137,32 @@ const translations = {
         "Engenharia": "Engenharia de Sistemas – UFMG (2022 a 2027)",
         "Intercâmbio": "Intercâmbio em Ciência da Computação – Finlândia – KAMK University (2025)",
 
-        experiencia: "Experiência",
+        experience: "Experiência",
 
-        "Estágio": "Estágio em TI – Usina Fotovoltaica – Solar Energia (2020)",
-        "Iniciação": "Iniciação Científica – Desenvolvimento de Sistemas – Hospital das Clínicas UFMG (2023 a 2025)",
-        "Automação": "Estágio em Automação – Usina Hidrelétrica – Snef Brasil (2024 a 2025)",
+        estagio1: "Estagiário de Automação – Snef Brasil",
+        estagio2: "Estagiário de Desenvolvimento – NetAdmin Software",
+        estagio3: "Estagiário de TI – Usina Solar (Solar Energia)",
+        ics: "Iniciação Científica – Desenvolvimento de Software | HC-UFMG",
+
+        netadmin1: "Desenvolvimento de rotinas automatizadas e processos agendados utilizando SQL e linguagens de programação",
+        netadmin2: "Implementação e manutenção de integrações com APIs Web",
+        netadmin3: "Realização de consultas, inserções e atualizações em bancos de dados relacionais (SQL)",
+        netadmin4: "Apoio na documentação técnica de módulos e funcionalidades do sistema",
+
+        snef1: "Desenvolvimento e suporte a sistemas para ambientes industriais",
+        snef2: "Implementação de sistemas SCADA e interfaces HMI",
+        snef3: "Atuação com ambientes baseados em Linux e ferramentas de automação",
+        snef4: "Elaboração de documentação técnica e suporte a sistemas de produção",
+
+        hc1: "Desenvolvimento de sistema desktop de gestão hospitalar utilizando Python e PyQt6",
+        hc2: "Modelagem e integração de bancos de dados MySQL e PostgreSQL",
+        hc3: "Implementação de sincronização de dados e comunicação via APIs REST",
+        hc4: "Experiência prática com sistemas reais na área da saúde",
+
+        solar1: "Monitoramento de sistemas fotovoltaicos e suporte às operações da usina",
+        solar2: "Realização de medições elétricas básicas e análise de sistemas",
+        solar3: "Contribuição para documentação técnica e relatórios de desempenho",
+        solar4: "Colaboração na resolução de problemas em ambiente industrial",
 
         projetos: "Projetos",
 
@@ -147,7 +192,14 @@ const translations = {
         lang_fi: "Finlandês",
         Books: "Livros",
 
-        contact_title: "Contato"
+        cert1: "Técnico em Eletricidade (CEFET-MG) 2021",
+        cert2: "Inovação Científica (Desenvolvimento de Software) 2024",
+        cert3: "Inovação Científica (Desenvolvimento de Software) 2025",
+        cert4: "Programa de Intercâmbio (Universidade KAMK) 2025",
+
+        contato: "Contato",
+
+        cert: "Certificações"
     }
 };
 
