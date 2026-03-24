@@ -147,7 +147,7 @@ footer {
 }
 .empresa2 img{
     position: relative;
-    top: 12px;
+    top: 10px;
     width: 27%;
     height: 20%;     /* ALTURA FIXA */
     object-fit: cover;
