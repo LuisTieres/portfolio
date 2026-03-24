@@ -435,7 +435,7 @@ section ul li:hover {
 /* IMAGENS */
 .hobby-item img {
     width: 100%;
-    max-width: 440px;   /* CONTROLA O TAMANHO */
+    max-width: auto;   /* CONTROLA O TAMANHO */
     height: 260px;     /* ALTURA FIXA */
     object-fit: cover;
     border-radius: 10px;
