@@ -49,8 +49,8 @@ const translations = {
 
         estagio1: "Automation Intern",
         estagio2: "Developer Intern",
-        estagio3: "IT Intern ",
-        ics: "Undergraduate Researcher – Software Development | HC-UFMG",
+        estagio3: "IT Intern Solar Energy ",
+        ics: "Undergraduate Researcher – Software Development",
 
         netadmin1: "Development of automated routines and scheduled processes using SQL and programming languages",
         netadmin2: "Implementation and maintenance of integrations with Web APIs",
@@ -164,7 +164,7 @@ const translations = {
 
         estagio1: "Estagiário de Automação ",
         estagio2: "Estagiário de Desenvolvimento",
-        estagio3: "Estagiário de TI ",
+        estagio3: "Estagiário de TI Energia Solar",
         ics: "Iniciação Científica – Desenvolvimento de Software ",
 
         netadmin1: "Desenvolvimento de rotinas automatizadas e processos agendados utilizando SQL e linguagens de programação",
