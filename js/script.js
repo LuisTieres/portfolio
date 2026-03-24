@@ -73,7 +73,10 @@ const translations = {
         solar4: "Collaborated in problem-solving within an industrial environment",
         projetos: "Projects",
 
-        
+        location_job4:"Curvelo, On-site",
+        location_job3:"Belo Horizonte, Remote",
+        location_job2:"Belo Horizonte, On-site",
+
         projectsTitle: "Projects",
 
         proj1_title: "Hospital Bed Management System",
@@ -183,8 +186,10 @@ const translations = {
         solar2: "Realização de medições elétricas básicas e análise de sistemas",
         solar3: "Contribuição para documentação técnica e relatórios de desempenho",
         solar4: "Colaboração na resolução de problemas em ambiente industrial",
+        location_job4:"Curvelo, Presencial",
+        location_job3:"Belo Horizonte, Remoto",
+        location_job2:"Belo Horizonte, Presencial",
 
-       
         projectsTitle: "Projetos",
 
         proj1_title: "Sistema de Gestão de Leitos Hospitalares",
