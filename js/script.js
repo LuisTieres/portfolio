@@ -38,12 +38,13 @@ const translations = {
 
         summary_p5: "Outside of technology, I am a long-distance runner and achieved the position of best Brazilian athlete at the Helsinki Marathon 2025. My profile is marked by dedication, resilience and proactivity, and I constantly seek to improve my technical and interpersonal skills.",
         
-        education: "Education",
+        
+        educationTitle: "Education",
 
-        "Técnico": "Electrical Technician – CEFET-MG (2018 to 2020)",
-        "Engenharia": "Systems Engineering – UFMG (2022 to 2027)",
-        "Intercâmbio": "Computer Science Exchange Program – Finland – KAMK University (2025)",
-
+        edu1: "Technical Degree in Electrotechnics – CEFET-MG (2018 – 2020)",
+        edu2: "Bachelor’s Degree in Systems Engineering – UFMG (2022 – 2027)",
+        edu3: "International Exchange Program in Computer Science – Kajaani University of Applied Sciences, Finland (2025)",
+    
         experience: "Experience",
 
         estagio1: "Automation Intern – Snef Brasil",
@@ -72,17 +73,22 @@ const translations = {
         solar4: "Collaborated in problem-solving within an industrial environment",
         projetos: "Projects",
 
-        projeto_SISTEMA: "Hospital Bed Management System",
-        projeto_SISTEMA_SOBRE: "Desktop application developed in Python (PyQt6) using MySQL, PostgreSQL and API integration.",
+        
+        projectsTitle: "Projects",
 
-        projeto_Robber: "Robber Game",
-        projeto_Robber_SOBRE: "The Robber is a dynamic game where the player takes on the role of a thief trying to steal vegetables from a farmer’s garden without being caught. Developed in C# using Unity.",
+        proj1_title: "Hospital Bed Management System",
+        proj1_desc: "Desktop application developed with Python (PyQt6) for hospital bed management, integrating MySQL and PostgreSQL databases and REST APIs.",
 
+        proj2_title: "Robber Game",
+        proj2_desc: "2D game developed with Unity and C#, where the player controls a robber attempting to steal items without being detected, focusing on game logic and interaction.",
+
+        proj3_title: "Ritmo",
+        proj3_desc: "Responsive web marketplace for sports event registration, allowing users to register for multiple races through a unified platform. Designed with scalability and user experience in mind.",
+    
 
         languages_title: "Languages",
         habilidades: "Softwares",
         languages_skills: "Skills",
-        hobbies: "Other Experience and Interests",
         Run: "Running",
         runnn1: "Best Brazilian in the Helsinki marathon",
         runnn2: "Third overall in the Duque de Caxias Race",
@@ -131,12 +137,13 @@ const translations = {
 
         summary_p5: "Além da área de tecnologia, sou corredor de longa distância e conquistei a posição de melhor atleta brasileiro na Maratona de Helsinque 2025. Meu perfil é marcado por dedicação, resiliência e proatividade, buscando constantemente evoluir técnica e pessoalmente.",
 
-        education: "Formação",
+        
+        educationTitle: "Formação",
 
-        "Técnico": "Técnico em Eletrotécnica – CEFET-MG (2018 a 2020)",
-        "Engenharia": "Engenharia de Sistemas – UFMG (2022 a 2027)",
-        "Intercâmbio": "Intercâmbio em Ciência da Computação – Finlândia – KAMK University (2025)",
-
+        edu1: "Curso Técnico em Eletrotécnica – CEFET-MG (2018 – 2020)",
+        edu2: "Bacharelado em Engenharia de Sistemas – UFMG (2022 – 2027)",
+        edu3: "Intercâmbio em Ciência da Computação – Kajaani University of Applied Sciences, Finlândia (2025)",
+    
         experience: "Experiência",
 
         estagio1: "Estagiário de Automação – Snef Brasil",
@@ -164,14 +171,18 @@ const translations = {
         solar3: "Contribuição para documentação técnica e relatórios de desempenho",
         solar4: "Colaboração na resolução de problemas em ambiente industrial",
 
-        projetos: "Projetos",
+       
+        projectsTitle: "Projetos",
 
-        projeto_SISTEMA: "Sistema de Gestão de Leitos",
-        projeto_SISTEMA_SOBRE: "Aplicação desktop em Python (PyQt6) com MySQL, PostgreSQL e integração via API.",
+        proj1_title: "Sistema de Gestão de Leitos Hospitalares",
+        proj1_desc: "Aplicação desktop desenvolvida em Python (PyQt6) para gestão de leitos hospitalares, integrando bancos de dados MySQL e PostgreSQL e APIs REST.",
 
-        projeto_Robber: "Robber Game",
-        projeto_Robber_SOBRE: "The Robber é um jogo dinâmico no qual o jogador assume o papel de um ladrão tentando roubar vegetais da horta de um fazendeiro sem ser pego. Desenvolvido em C# utilizando Unity.",
+        proj2_title: "Jogo do Ladrão",
+        proj2_desc: "Jogo 2D desenvolvido com Unity e C#, onde o jogador controla um ladrão tentando roubar itens sem ser detectado, com foco em lógica de jogo e interação.",
 
+        proj3_title: "Ritmo",
+        proj3_desc: "Marketplace web responsivo para inscrição em eventos esportivos, permitindo que usuários se registrem em várias corridas em uma única plataforma, com foco em escalabilidade e experiência do usuário.",
+    
 
         languages_title: "Idiomas",
         habilidades: "Softwares",
