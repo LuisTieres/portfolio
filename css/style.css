@@ -421,20 +421,36 @@ section ul li:hover {
 }
 /* Galeria geral */
 .hobby-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 15px;
-    scrollbar-width: auto;
+    display: flex;
+    width:auto;
+    overflow-x: auto;   /* enables horizontal scroll */
+    gap: 15px;          /* space between items */
+    padding-bottom: 20px;
 }
 
-/* Cada item */
+/* Optional: style the scrollbar */
+.hobby-gallery::-webkit-scrollbar {
+    height: 8px;
+}
+
+.hobby-gallery::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.hobby-gallery::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Prevent items from shrinking */
 .hobby-item {
-    text-align: center;
+    min-width: 250px;  /* adjust as you want */
+    flex-shrink: 0;
 }
 
 /* IMAGENS */
 .hobby-item img {
-    width: 100%;
+    width: auto;
     max-width: auto;   /* CONTROLA O TAMANHO */
     height: 260px;     /* ALTURA FIXA */
     object-fit: cover;
