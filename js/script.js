@@ -247,8 +247,15 @@ document.addEventListener("DOMContentLoaded", () => {
     setLanguage(savedLang);
 });
 document.getElementById("download-cv").addEventListener("click", () => {
-    window.location.href = "/portfolio/assets/cv/Luis_Tieres_CV.pdf";
-});
+    const savedLang = localStorage.getItem("language") || "en";  
+    if (savedLang == "en"){
+        window.location.href = "/portfolio/assets/cv/Luis_Tieres_CV_en.pdf";
+
+    }
+    else{
+        window.location.href = "/portfolio/assets/cv/Luis_Tieres_CV.pdf";
+    }
+    });
 
     // Tenta tocar automaticamente
 const music = document.getElementById('background-music');
@@ -289,6 +296,14 @@ document.querySelectorAll(".lang-switch button").forEach(btn => {
     });
 });
 
-function mutar(){
-    music.stop();
+const btn = document.querySelector("button[onclick='mutar()']");
+
+function mutar() {
+    if (music.paused) {
+        music.play();
+        btn.textContent = "🔊";
+    } else {
+        music.pause();
+        btn.textContent = "🔇";
+    }
 }
