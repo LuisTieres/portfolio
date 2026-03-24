@@ -140,8 +140,30 @@ footer {
 .empresa img{
     
     position: relative;
-    top: 10px;
+    top: 12px;
     width: 20%;
+    height: 20%;     /* ALTURA FIXA */
+    object-fit: cover;
+}
+.empresa1 img{
+    position: relative;
+    top: 9px;
+    width: 25%;
+    height: 20%;     /* ALTURA FIXA */
+    object-fit: cover;
+}
+.empresa3 img{
+    position: relative;
+    top: 9px;
+    left: 10px;
+    width: 30%;
+    height: 20%;     /* ALTURA FIXA */
+    object-fit: cover;
+}
+.empresa4 img{
+    position: relative;
+    top: 9px;
+    width: 25%;
     height: 20%;     /* ALTURA FIXA */
     object-fit: cover;
 }
