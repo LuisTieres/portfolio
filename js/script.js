@@ -107,6 +107,11 @@ const translations = {
         databases: "Databases",
         tools: "Tools",
 
+        data_admin: "March 2026 – Current",
+        data_snef: "Mar 2024 – Mar 2025",
+        data_hc: "Mar 2023 – Sep 2025",
+        data_solar: "Feb 2021 – Oct 2021",
+
         Run: "Running",
         runnn1: "Best Brazilian in the Helsinki marathon",
         runnn2: "Third overall in the Duque de Caxias Race",
@@ -235,6 +240,11 @@ const translations = {
         lang_en: "Inglês",
         lang_fi: "Finlandês",
         Books: "Livros",
+
+        data_admin: "Março 2026 – Atual",
+        data_snef: "Mar 2024 – Mar 2025",
+        data_hc: "Mar 2023 – Set 2025",
+        data_solar: "Fev 2021 – Out 2021",
 
         cert1: "Técnico em Eletricidade (CEFET-MG) 2021",
         cert2: "Inovação Científica (Desenvolvimento de Software) 2024",
