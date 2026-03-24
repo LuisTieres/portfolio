@@ -137,18 +137,18 @@ footer {
 .empresa{
     flex-direction: row;
 }
-.empresa img{
+.empresa1 img{
     
     position: relative;
-    top: 12px;
-    width: 20%;
+    top: 8px;
+    width:15%;
     height: 20%;     /* ALTURA FIXA */
     object-fit: cover;
 }
-.empresa1 img{
+.empresa2 img{
     position: relative;
-    top: 9px;
-    width: 25%;
+    top: 12px;
+    width: 27%;
     height: 20%;     /* ALTURA FIXA */
     object-fit: cover;
 }
@@ -163,8 +163,8 @@ footer {
 .empresa4 img{
     position: relative;
     top: 9px;
-    width: 25%;
-    height: 20%;     /* ALTURA FIXA */
+    width: 10%;
+    height: 10%;     /* ALTURA FIXA */
     object-fit: cover;
 }
 .flag {
