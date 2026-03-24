@@ -139,10 +139,11 @@ footer {
 }
 .empresa img{
     
+    position: relative;
+    top: 10px;
     width: 20%;
     height: 20%;     /* ALTURA FIXA */
     object-fit: cover;
-    border-radius: 10px;
 }
 .flag {
     width: 36px;
