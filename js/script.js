@@ -12,7 +12,7 @@ const translations = {
 
     en: {
         name: "Luis Tieres",
-        role: "Systems Engineering | Developer",
+        summaryluis: "Backend Developer | Java, Python & TypeScript",
 
         menu_about: "About",
         menu_education: "Education",
@@ -28,13 +28,13 @@ const translations = {
 
         summary_title: "Professional Summary",
 
-        summary_p1: "I am a Systems Engineering student at UFMG and an Electrical Technician from CEFET-MG, with early experience in IT applied to photovoltaic power plants.",
+        summary_p1: "I am a Systems Engineering student at UFMG and an Electrical Technician from CEFET-MG, with early experience in IT within photovoltaic power plants.",
 
-        summary_p2: "During my academic journey, I participated in two scientific research projects focused on full stack software development, as well as completed an internship in industrial automation, working with PLC programming, HMIs, SCADA systems and Linux environments. These experiences strengthened my technical, analytical and problem-solving skills.",
+        summary_p2: "During my academic journey, I worked on scientific research projects focused on software development and completed an internship in industrial automation, gaining experience with PLCs, SCADA systems, and Linux environments.",
 
-        summary_p3: "I have hands-on experience in software development, working across the full development lifecycle, including database modeling and administration (MySQL and PostgreSQL), as well as backend and frontend development using Java (Spring Boot), Python (including PyQt6), C, C++, TypeScript, JavaScript and HTML/CSS.",
+        summary_p3: "I have hands-on experience in backend development, working with Java (Spring Boot), Python, and relational databases such as PostgreSQL and MySQL. I have built applications involving API integration, data management, and system design.",
 
-        summary_p4: "I also participated in an academic exchange program at Kajaani University of Applied Sciences in Finland, where I attended courses fully taught in English, focused on computer science and digital development. To prepare for this experience, I dedicated myself intensively to learning English and achieved a high level of proficiency within one year. I have recently also started studying French.",
+        summary_p4: "I also participated in an academic exchange at Kajaani University of Applied Sciences in Finland, where I studied computer science in English, strengthening both my technical and communication skills in an international environment.",
 
         summary_p5: "Outside of technology, I am a long-distance runner and achieved the position of best Brazilian athlete at the Helsinki Marathon 2025. My profile is marked by dedication, resilience and proactivity, and I constantly seek to improve my technical and interpersonal skills.",
         
@@ -89,6 +89,21 @@ const translations = {
         languages_title: "Languages",
         habilidades: "Softwares",
         languages_skills: "Skills",
+
+
+        skillsTitle: "Skills",
+        languages_title: "Languages",
+        programming_title: "Programming",
+
+        lang_en: "English",
+        lang_fi: "Finnish",
+        lang_de: "German",
+
+        backend: "Backend",
+        frontend: "Frontend",
+        databases: "Databases",
+        tools: "Tools",
+
         Run: "Running",
         runnn1: "Best Brazilian in the Helsinki marathon",
         runnn2: "Third overall in the Duque de Caxias Race",
@@ -113,8 +128,7 @@ const translations = {
 
     pt: {
         name: "Luis Tieres",
-        role: "Engenharia de Sistemas | Desenvolvedor",
-
+        summaryluis: "Desenvolvedor Backend | Java, Python & TypeScript",
         menu_about: "Sobre",
         menu_education: "Formação",
         menu_experience: "Experiência",
@@ -127,16 +141,15 @@ const translations = {
 
         summary_title: "Resumo Profissional",
 
-        summary_p1: "Sou estudante de Engenharia de Sistemas na UFMG e Técnico em Eletrotécnica pelo CEFET-MG, com experiência inicial em TI aplicada a usinas fotovoltaicas.",
+        summary_p1: "Sou estudante de Engenharia de Sistemas pela UFMG e Técnico em Eletrotécnica pelo CEFET-MG, com experiência inicial em TI no contexto de usinas fotovoltaicas.",
 
-        summary_p2: "Durante minha trajetória acadêmica, participei de dois projetos de iniciação científica voltados ao desenvolvimento full stack, além de realizar um estágio em automação industrial, atuando com programação de CLPs, IHMs, sistemas supervisórios SCADA e ambientes Linux. Essas experiências fortaleceram minhas habilidades técnicas, analíticas e de resolução de problemas.",
+        summary_p2: "Durante minha trajetória acadêmica, atuei em projetos de iniciação científica com foco em desenvolvimento de software e realizei estágio na área de automação industrial, adquirindo experiência com CLPs, sistemas SCADA e ambientes Linux.",
 
-        summary_p3: "Possuo experiência prática em desenvolvimento de software, atuando em todas as etapas do ciclo de desenvolvimento, incluindo modelagem e administração de bancos de dados (MySQL e PostgreSQL), além de desenvolvimento backend e frontend utilizando Java (Spring Boot), Python (incluindo PyQt6), C, C++, TypeScript, JavaScript e HTML/CSS.",
+        summary_p3: "Possuo experiência prática em desenvolvimento backend, trabalhando com Java (Spring Boot), Python e bancos de dados relacionais como PostgreSQL e MySQL. Desenvolvi aplicações envolvendo integração de APIs, gerenciamento de dados e arquitetura de sistemas.",
 
-        summary_p4: "Também participei de um programa de intercâmbio acadêmico na Kajaani University of Applied Sciences, na Finlândia, onde cursei disciplinas ministradas integralmente em inglês, com foco em computação e desenvolvimento digital. Para isso, dediquei-me intensamente ao aprendizado do idioma, alcançando um alto nível de proficiência em um ano. Recentemente, iniciei também os estudos em francês.",
+        summary_p4: "Também participei de um intercâmbio acadêmico na Kajaani University of Applied Sciences, na Finlândia, onde estudei ciência da computação em inglês, fortalecendo minhas habilidades técnicas e de comunicação em um ambiente internacional.",
 
-        summary_p5: "Além da área de tecnologia, sou corredor de longa distância e conquistei a posição de melhor atleta brasileiro na Maratona de Helsinque 2025. Meu perfil é marcado por dedicação, resiliência e proatividade, buscando constantemente evoluir técnica e pessoalmente.",
-
+        summary_p5: "Além da área de tecnologia, sou corredor de longa distância e conquistei o título de melhor atleta brasileiro na Maratona de Helsinque 2025. Meu perfil é marcado por dedicação, resiliência e proatividade, buscando constantemente o aprimoramento técnico e interpessoal.",
         
         educationTitle: "Formação",
 
@@ -187,6 +200,21 @@ const translations = {
         languages_title: "Idiomas",
         habilidades: "Softwares",
         languages_skills: "Habilidades",
+
+
+        skillsTitle: "Habilidades",
+        languages_title: "Idiomas",
+        programming_title: "Programação",
+
+        lang_en: "Inglês",
+        lang_fi: "Finlandês",
+        lang_de: "Alemão",
+
+        backend: "Backend",
+        frontend: "Frontend",
+        databases: "Bancos de Dados",
+        tools: "Ferramentas",
+
         hobbies: "Outras experiências e interesses",
         Run: "Corrida",
         runnn1: "Melhor brasileiro na maratona de Helsinque",
