@@ -36,6 +36,7 @@ function loadPage(page) {
     } else {
         loadComponent("content", `/portfolio/pages/${page}.html`);
     }
+    setLanguage('en');
 }
 
 function loadPage_sobre(page) {
