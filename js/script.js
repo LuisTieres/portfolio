@@ -172,3 +172,19 @@ const music = document.getElementById('background-music');
 music.play().catch(() => {
     console.log('Autoplay bloqueado pelo navegador.');
 });
+
+function setLanguage(lang) {
+    // salva no localStorage
+    localStorage.setItem("language", lang);
+
+    // pega todos os elementos com data-i18n
+    const elements = document.querySelectorAll("[data-i18n]");
+
+    elements.forEach(el => {
+        const key = el.getAttribute("data-i18n");
+
+        if (translations[lang] && translations[lang][key]) {
+            el.textContent = translations[lang][key];
+        }
+    });
+}
