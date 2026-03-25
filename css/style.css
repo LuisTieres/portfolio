@@ -78,6 +78,11 @@ nav a.active {
     background: white;
     color: #1e3799;
 }
+.btn_home{
+
+    background: white;
+    color: #1e3799;
+}
 section {
     padding: 40px;
     max-width: 900px;
