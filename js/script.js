@@ -228,7 +228,7 @@ const translations = {
         databases: "Bancos de Dados",
         tools: "Ferramentas",
 
-        hobbies: "Outras experiências e interesses",
+        hobbies: "Curiosidades",
         Run: "Corrida",
         runnn1: "Melhor brasileiro na maratona de Helsinque",
         runnn2: "Terceiro lugar geral na Corrida Duque de Caxias",
