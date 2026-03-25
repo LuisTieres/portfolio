@@ -76,6 +76,10 @@ const translations = {
         location_job3:"Belo Horizonte, Remote",
         location_job2:"Belo Horizonte, On-site",
 
+        location_edu2: "Belo Horizonte - Brazil",
+        location_edu1: "Curvelo - Brazil",
+        location_edu3: "KAJAANI - Finland",
+
         projectsTitle: "Projects",
 
         proj1_title: "Hospital Bed Management System",
@@ -110,6 +114,10 @@ const translations = {
         data_snef: "Mar 2024 – Mar 2025",
         data_hc: "Mar 2023 – Sep 2025",
         data_solar: "Feb 2021 – Oct 2021",
+
+        data_edu1: "2018 – 2020",
+        data_edu2: "2022 – Current",
+        data_edu3: "2025",
 
         Run: "Running",
         runnn1: "Best Brazilian in the Helsinki marathon",
@@ -164,9 +172,9 @@ const translations = {
         
         educationTitle: "Formação",
 
-        edu1: "Curso Técnico em Eletrotécnica – CEFET-MG (2018 – 2020)",
-        edu2: "Bacharelado em Engenharia de Sistemas – UFMG (2022 – 2027)",
-        edu3: "Intercâmbio em Ciência da Computação – Kajaani University of Applied Sciences, Finlândia (2025)",
+        edu1: "Curso Técnico em Eletrotécnica – CEFET-MG",
+        edu2: "Bacharelado em Engenharia de Sistemas – UFMG ",
+        edu3: "Intercâmbio em Ciência da Computação – Kajaani University of Applied Science",
     
         experience: "Experiência",
 
@@ -197,6 +205,10 @@ const translations = {
         location_job4:"Curvelo, Presencial",
         location_job3:"Belo Horizonte, Remoto",
         location_job2:"Belo Horizonte, Presencial",
+        
+        location_edu2: "Belo Horizonte - Brasil",
+        location_edu1: "Curvelo - Brasil",
+        location_edu3: "KAJAANI - Finlândia",
 
         projectsTitle: "Projetos",
 
@@ -252,6 +264,10 @@ const translations = {
         data_snef: "Mar 2024 – Mar 2025",
         data_hc: "Mar 2023 – Set 2025",
         data_solar: "Fev 2021 – Out 2021",
+
+        data_edu1: "2018 – 2020",
+        data_edu2: "2022 – Atual",
+        data_edu3: "2025",
 
         cert1: "Técnico em Eletrotécnica (CEFET-MG) 2021",
         cert2: "Inovação Científica (Desenvolvimento de Software) 2024",
