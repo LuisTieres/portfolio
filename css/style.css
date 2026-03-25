@@ -78,13 +78,14 @@ nav a.active {
     background: white;
     color: #1e3799;
 }
-.projetos_sec{
-    flex-direction: column;
-}
+
 .proj-list {
     margin: 10px 0 12px 20px;
     list-style-type: disc;
     opacity: 0.95;
+}
+.proj-list li{
+    color:#0a3d62;
 }
 
 .proj-tech {
