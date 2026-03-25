@@ -26,6 +26,8 @@ nav {
     background: #1e3799;
     padding: 15px 20px;
     max-width: 100%;
+    flex-wrap: wrap;
+
 
 }
 
