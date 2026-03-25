@@ -30,11 +30,7 @@ nav {
 }
 
 
-nav:hover {
-    background: #4a69bd;
-    transition: 0.3s;
-    color:#9e9d9d
-}
+
 nav a.active {
     background: #6681ee;
     color: black;
@@ -52,6 +48,7 @@ nav a {
 
 nav a:hover {
     background: #6681ee;
+    color: white;
 }
 section {
     padding: 40px;
