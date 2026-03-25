@@ -78,6 +78,9 @@ nav a.active {
     background: white;
     color: #1e3799;
 }
+.projetos_sec{
+    flex-direction: column;
+}
 .btn_home{
 
     background: white;
