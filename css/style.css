@@ -41,7 +41,34 @@ nav a {
     cursor: pointer;
     font-weight: 600;
 }
+.hero {
+    text-align: center;
+    font-size: 20px; 
+    padding: 60px 20px;
+    color: white;
+}
 
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #6681ee;
+}
 nav a:hover {
     background: #6681ee;
     transform: translateY(-2px);
