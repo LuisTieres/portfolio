@@ -341,14 +341,11 @@ document.addEventListener("click", (e) => {
 });
 let wasPlaying = false;
 
-// Detecta mudança de aba
 document.addEventListener("visibilitychange", () => {
     if (document.hidden) {
-        // usuário saiu da aba
         wasPlaying = !music.paused;
         music.pause();
     } else {
-        // usuário voltou
         if (wasPlaying) {
             music.play().catch(() => {});
         }
