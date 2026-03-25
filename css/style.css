@@ -192,7 +192,7 @@ footer {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background:white; /* verde spotify */
+    background:white; 
     border: none;
     display: flex;
     align-items: center;
@@ -207,7 +207,7 @@ footer {
     background: white;
 }
 
-.mutar_btn icon {
+.mutar_btn .icon {
     font-size: 8px;
     color: white;
 }
