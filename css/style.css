@@ -31,29 +31,25 @@ nav {
 
 
 }
-
-
-
-nav a.active {
-    background: #6681ee;
-    color: black;
-    border-bottom: 2px solid white;
-}
 nav a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 6px;
-    transition: 0.3s;
-    white-space: nowrap;
-
+    padding: 10px 18px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.1);
+    transition: all 0.25s ease;
+    cursor: pointer;
+    font-weight: 600;
 }
-
 
 nav a:hover {
     background: #6681ee;
-    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+nav a.active {
+    background: white;
+    color: #1e3799;
 }
 section {
     padding: 40px;

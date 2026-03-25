@@ -361,3 +361,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+function setActive(element) {
+    document.querySelectorAll("nav a").forEach(a => a.classList.remove("active"));
+    element.classList.add("active");
+}

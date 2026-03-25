@@ -20,11 +20,11 @@
 </header>
 
 <nav>
-    <a href="#" data-i18n="menu_about" onclick="loadPage_sobre('sobre'); return false;">Home</a>
-    <a href="#" data-i18n="menu_education" onclick="loadPage('formacao'); return false;">Education</a>
-    <a href="#" data-i18n="menu_experience" onclick="loadPage('experiencia'); return false;">Experience</a>
-    <a href="#" data-i18n="menu_projects" onclick="loadPage('projetos'); return false;">Projects</a>
-    <a href="#" data-i18n="menu_net" onclick="loadPage('network'); return false;">Network</a>
-    <a href="#" data-i18n="menu_Skills" onclick="loadPage('skills'); return false;">Skills</a>
-    <a href="#" data-i18n="hobbies" onclick="loadPage('others'); return false;">Others</a>
+    <a href="#" onclick="setActive(this); loadPage_sobre('sobre'); return false;">Home</a>
+    <a href="#" onclick="setActive(this); loadPage('formacao'); return false;">Education</a>
+    <a href="#" onclick="setActive(this); loadPage('experiencia'); return false;">Experience</a>
+    <a href="#" onclick="setActive(this); loadPage('projetos'); return false;">Projects</a>
+    <a href="#" onclick="setActive(this); loadPage('network'); return false;">Network</a>
+    <a href="#" onclick="setActive(this); loadPage('skills'); return false;">Skills</a>
+    <a href="#" onclick="setActive(this); loadPage('others'); return false;">Others</a>
 </nav>
