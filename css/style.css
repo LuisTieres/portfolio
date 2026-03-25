@@ -307,42 +307,86 @@ section ul li:hover {
     box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
 }
 
+.skills-container-PJ {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.skill-PJ {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.links-projeto {
+    margin-top: 15px;
+}
+
+.links-projeto a {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #1e40af;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-right: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.links-projeto a:hover {
+    background-color: #1e3a8a;
+    color: #fff;
+}
+
 #projetos {
     display: grid;
     gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .projeto {
     background: linear-gradient(135deg, #2563eb, #1e40af);
     color: #ffffff;
     padding: 25px;
-    border-radius: 18px;
+    border-radius: 20px;
     box-shadow: 0 10px 30px rgba(37, 99, 235, 0.4);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .projeto h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+    font-size: 1.6rem;
+    margin-bottom: 12px;
 }
 
 .projeto p {
     font-size: 1rem;
+    margin-bottom: 6px;
     opacity: 0.95;
 }
 
+.proj-diff {
+    font-style: italic;
+    opacity: 0.85;
+}
+
 .projeto:hover {
-    transform: scale(1.03);
+    transform: translateY(-5px) scale(1.03);
     box-shadow: 0 15px 40px rgba(37, 99, 235, 0.6);
 }
 
 @media (max-width: 768px) {
-    section h2 {
-        font-size: 1.7rem;
+    .projeto h3 {
+        font-size: 1.4rem;
     }
 
-    .projeto h3 {
-        font-size: 1.3rem;
+    .proj-diff {
+        font-size: 0.9rem;
     }
 }
 .idiomas-skills {
@@ -472,24 +516,6 @@ section ul li:hover {
     .idiomas-skills {
         grid-template-columns: 1fr;
     }
-}
-.links-projeto {
-    margin-top: 10px;
-}
-
-.links-projeto a {
-    text-decoration: none;
-    background-color: #ffffff;
-    color: rgb(0, 4, 255);
-    padding: 6px 12px;
-    border-radius: 6px;
-    margin-right: 8px;
-    font-size: 14px;
-    transition: 0.3s;
-}
-
-.links-projeto a:hover {
-    background-color: #005582;
 }
 .idiomas-skills {
     margin: 80px auto;

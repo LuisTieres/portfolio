@@ -83,14 +83,19 @@ const translations = {
         projectsTitle: "Projects",
 
         proj1_title: "Hospital Bed Management System",
-        proj1_desc: "Desktop application developed with Python (PyQt6) for hospital bed management, integrating MySQL and PostgreSQL databases and REST APIs.",
+        proj1_what: "Desktop application developed for hospital bed management.",
+        proj1_done: "Integrated MySQL and PostgreSQL databases and implemented REST APIs.",
+        proj1_diff: "Intuitive interface for healthcare professionals, focusing on efficiency and data control.",
 
         proj2_title: "Robber Game",
-        proj2_desc: "2D game developed with Unity and C#, where the player controls a robber attempting to steal items without being detected, focusing on game logic and interaction.",
+        proj2_what: "2D game where the player controls a robber trying to steal items undetected.",
+        proj2_done: "Developed stealth logic, movement, and enemy detection using Unity and C#.",
+        proj2_diff: "Focused on challenging gameplay and interactive mechanics.",
 
         proj3_title: "Ritmo",
-        proj3_desc: "Responsive web marketplace for sports event registration, allowing users to register for multiple races through a unified platform. Designed with scalability and user experience in mind.",
-    
+        proj3_what: "Web marketplace for sports event registration.",
+        proj3_done: "Built frontend with React/TypeScript and backend with Java/PostgreSQL.",
+        proj3_diff: "Supports multiple registrations in a scalable and user-friendly platform.",
 
         languages_title: "Languages",
         habilidades: "Softwares",
@@ -213,14 +218,19 @@ const translations = {
         projectsTitle: "Projetos",
 
         proj1_title: "Sistema de Gestão de Leitos Hospitalares",
-        proj1_desc: "Aplicação desktop desenvolvida em Python (PyQt6) para gestão de leitos hospitalares, integrando bancos de dados MySQL e PostgreSQL e APIs REST.",
+        proj1_what: "Aplicação desktop desenvolvida para gerenciamento de leitos hospitalares.",
+        proj1_done: "Integrei MySQL e PostgreSQL e implementei APIs REST.",
+        proj1_diff: "Interface intuitiva para profissionais da saúde, focando eficiência e controle de dados.",
 
         proj2_title: "Jogo do Ladrão",
-        proj2_desc: "Jogo 2D desenvolvido com Unity e C#, onde o jogador controla um ladrão tentando roubar itens sem ser detectado, com foco em lógica de jogo e interação.",
+        proj2_what: "Jogo 2D onde o jogador controla um ladrão tentando roubar itens sem ser detectado.",
+        proj2_done: "Desenvolvi lógica de furtividade, movimentação e detecção de inimigos usando Unity e C#.",
+        proj2_diff: "Foco em gameplay desafiador e mecânicas interativas de IA simples.",
 
         proj3_title: "Ritmo",
-        proj3_desc: "Marketplace web responsivo para inscrição em eventos esportivos, permitindo que usuários se registrem em várias corridas em uma única plataforma, com foco em escalabilidade e experiência do usuário.",
-    
+        proj3_what: "Marketplace web para inscrição em eventos esportivos.",
+        proj3_done: "Desenvolvi frontend em React/TypeScript e backend com Java/PostgreSQL.",
+        proj3_diff: "Permite múltiplas inscrições de forma escalável e amigável ao usuário.",
 
         languages_title: "Idiomas",
         habilidades: "Softwares",
