@@ -81,6 +81,18 @@ nav a.active {
 .projetos_sec{
     flex-direction: column;
 }
+.proj-list {
+    margin: 10px 0 12px 20px;
+    list-style-type: disc;
+    opacity: 0.95;
+}
+
+.proj-tech {
+    font-weight: 600;
+    margin-bottom: 12px;
+    opacity: 0.9;
+    color: #e0e7ff;
+}
 .btn_home{
 
     background: white;
