@@ -22,11 +22,12 @@ nav {
     justify-content: center;
     align-items: center;
     height: 100px;
-    gap: 30px;
+    gap: 20px;
     background: #1e3799;
-    padding: 15px 20px;
+    padding: 10px;
     max-width: 100%;
     flex-wrap: wrap;
+    overflow-x: auto;
 
 
 }
@@ -45,6 +46,8 @@ nav a {
     padding: 5px 10px;
     border-radius: 6px;
     transition: 0.3s;
+    white-space: nowrap;
+
 }
 
 
