@@ -16,21 +16,43 @@ header {
     padding: 40px;
     text-align: center;
 }
-
 nav {
+    font-size: clamp(14px, 2.5vw, 25px);
     display: flex;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
+    height: 100px;
+    gap: 30px;
     background: #1e3799;
-    padding: 10px;
+    padding: 15px 20px;
+    max-width: 100%;
+
 }
 
+
+nav:hover {
+    background: #4a69bd;
+    transition: 0.3s;
+    color:#9e9d9d
+}
+nav a.active {
+    background: #6681ee;
+    color: black;
+    border-bottom: 2px solid white;
+}
 nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: 0.3s;
 }
 
+
+nav a:hover {
+    background: #6681ee;
+}
 section {
     padding: 40px;
     max-width: 900px;
