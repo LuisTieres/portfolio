@@ -41,9 +41,9 @@ const translations = {
         
         educationTitle: "Education",
 
-        edu1: "Technical Degree in Electrotechnics – CEFET-MG (2018 – 2020)",
-        edu2: "Bachelor’s Degree in Systems Engineering – UFMG (2022 – 2027)",
-        edu3: "International Exchange Program in Computer Science – Kajaani University of Applied Sciences, Finland (2025)",
+        edu1: "Technical Degree in Electrotechnics – CEFET-MG",
+        edu2: "Bachelor’s Degree in Systems Engineering – UFMG",
+        edu3: "International Exchange Program in Computer Science – Kajaani University of Applied Sciences",
     
         experience: "Experience",
 
