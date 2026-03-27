@@ -330,7 +330,6 @@ function enableAudio() {
     music.play().catch(() => {
         console.log('Erro ao tentar tocar música');
     });
-    music.volume = 0.1;
 
     // remove o listener depois de ativar
     document.removeEventListener("click", enableAudio);
@@ -380,7 +379,6 @@ document.addEventListener("click", (e) => {
             btn.textContent = "🔇";
         }
 
-        music.volume = 0.1;
     }
 });
 let wasPlaying = false;
@@ -394,7 +392,6 @@ document.addEventListener("visibilitychange", () => {
             music.play().catch(() => {});
         }
     }
-    music.volume = 0.1;
 });
 
 function setActive(element, pageName) {
