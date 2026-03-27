@@ -181,7 +181,17 @@ footer {
     font-weight: bold;
     font-size: 14px;
 }
+.en {
+    background: linear-gradient(to right, #B22234, #3C3B6E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
+.pt {
+    background: linear-gradient(to right, #009C3B, #FFDF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .lang-switch {
     display: flex;
