@@ -1,4 +1,3 @@
-// net.js
 import { nets } from "/portfolio/data/nets.js";
 
 export function renderNetworks() {

@@ -1,4 +1,3 @@
-// Scroll suave ao clicar no menu
 document.querySelectorAll('nav a').forEach(link => {
     link.addEventListener('click', event => {
         event.preventDefault();
@@ -323,7 +322,6 @@ document.getElementById("download-cv").addEventListener("click", () => {
     }
     });
 
-    // Tenta tocar automaticamente
 const music = document.getElementById('background-music');
 
 function enableAudio() {
@@ -331,20 +329,16 @@ function enableAudio() {
         console.log('Erro ao tentar tocar música');
     });
 
-    // remove o listener depois de ativar
     document.removeEventListener("click", enableAudio);
     document.removeEventListener("touchstart", enableAudio);
 }
 
-// escuta interação do usuário
 document.addEventListener("click", enableAudio);
 document.addEventListener("touchstart", enableAudio);
 
 function setLanguage(lang) {
-    // salva no localStorage
     localStorage.setItem("language", lang);
 
-    // pega todos os elementos com data-i18n
     const elements = document.querySelectorAll("[data-i18n]");
 
     elements.forEach(el => {

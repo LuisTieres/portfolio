@@ -13,16 +13,13 @@ function loadComponent(id, file) {
         });
 }
 
-// Carrega sempre header e footer primeiro
 document.addEventListener("DOMContentLoaded", () => {
     loadComponent("header", "/portfolio/components/header.html");
     loadComponent("footer", "/portfolio/components/footer.html");
 
-    // Carrega a página inicial
     loadPage("sobre");
 });
 
-// Função para carregar páginas dentro do content
 function loadPage(page) {
     console.log("Renderizando networks1", page);
 
@@ -34,13 +31,13 @@ function loadPage(page) {
         loadComponent("content", `/portfolio/pages/network.html`).then(() => {
             import("/portfolio/js/net.js").then(module => {
                 module.renderNetworks();
-                setLanguage(savedLang); // aplica depois de renderizar
+                setLanguage(savedLang); 
             });
         });
     } else {
         loadComponent("content", `/portfolio/pages/${page}.html`)
             .then(() => {
-                setLanguage(savedLang); // aplica depois de carregar HTML
+                setLanguage(savedLang); 
             });
     }
 }
@@ -50,9 +47,7 @@ function loadPage_sobre(page) {
     loadComponent("header", "/portfolio/components/header.html");
     loadComponent("footer", "/portfolio/components/footer.html");
 
-    // Carrega a página inicial
     loadPage("sobre");}
 
-// Expondo globalmente
 window.loadPage = loadPage;
 window.setLanguage = setLanguage;
