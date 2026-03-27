@@ -196,7 +196,13 @@ footer {
     flex-direction: column;
     align-items: flex-end;
     gap: 30px;
+    z-index: 9999;
 }
+
+.lang-switch h2{ 
+    color:black;
+}
+
 .empresa{
     flex-direction: row;
 }
