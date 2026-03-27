@@ -415,3 +415,15 @@ document.addEventListener("DOMContentLoaded", function () {
         setActive(links[0]); 
     }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const dialog = document.getElementById("language-dialog");
+
+    const savedLang = localStorage.getItem("lang");
+
+    if (!savedLang) {
+        dialog.showModal();
+    } else {
+        startApp(savedLang);
+    }
+});
